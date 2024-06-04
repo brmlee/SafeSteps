@@ -1,0 +1,6 @@
+framework module Pods_fall_app {
+  umbrella header "Pods-fall-app-umbrella.h"
+
+  export *
+  module * { export * }
+}

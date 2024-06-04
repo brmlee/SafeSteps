@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "3DB31E0C-FE50-4FDC-9E69-5BD4BC177150"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "753D552E-A6FE-4BF8-947C-723865A8C979"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fall-app/Views/HistoryView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "getRecords()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "753D552E-A6FE-4BF8-947C-723865A8C979 - d05b456789eea9c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fall_app.HistoryView.getRecords() -&gt; ()"
+                  moduleName = "fall-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sgl/prog/fall-app/fall-app/fall-app/Views/HistoryView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "753D552E-A6FE-4BF8-947C-723865A8C979 - d05b456789eea9c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fall_app.HistoryView.getRecords() -&gt; ()"
+                  moduleName = "fall-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sgl/prog/fall-app/fall-app/fall-app/Views/HistoryView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "753D552E-A6FE-4BF8-947C-723865A8C979 - d05b456789eea9c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fall_app.HistoryView.getRecords() -&gt; ()"
+                  moduleName = "fall-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sgl/prog/fall-app/fall-app/fall-app/Views/HistoryView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "753D552E-A6FE-4BF8-947C-723865A8C979 - d05b456789eea9e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fall_app.HistoryView.getRecords() -&gt; ()"
+                  moduleName = "fall-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sgl/prog/fall-app/fall-app/fall-app/Views/HistoryView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "753D552E-A6FE-4BF8-947C-723865A8C979 - d05b456789eea982"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fall_app.HistoryView.getRecords() -&gt; ()"
+                  moduleName = "fall-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sgl/prog/fall-app/fall-app/fall-app/Views/HistoryView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A7EC6818-9F60-4140-A754-71629212E9FD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fall-app/UI/RecordItem.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "75B24E78-F210-412B-A9CA-674E0CDC05B3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fall-app/UI/RecordItem.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "RecordItem"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

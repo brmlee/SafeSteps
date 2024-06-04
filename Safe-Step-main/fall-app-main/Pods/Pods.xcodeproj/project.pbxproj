@@ -1,0 +1,2221 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00847773951C4686AC374189E5CEA20B /* SkeletonPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3A62247D298310C4F3DA11523D6A68 /* SkeletonPresenter.swift */; };
+		01AC1DF46BE04B12D47D8E832CBC4572 /* gpio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 667CC4F735D7467B2BD908AA2C950957 /* gpio.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		01F38E13204CA8DB98454C4EBB3B5B01 /* iOSDFULibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D727392D6CB59B940618C453F135CCF2 /* iOSDFULibrary-dummy.m */; };
+		056339316698F14F06DAD7B783437FB2 /* PositionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BB021B26F1E2177CD1ECA10766CB49 /* PositionInteractor.swift */; };
+		0564A0C19C24FCD4D734F50FC537EEA2 /* SkeletonForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AFED6574D681FE7BB1C16AD1E9D5A7 /* SkeletonForEach.swift */; };
+		05E151BDF23034306AD62CDB618884DE /* MblMwGattChar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A474EA0E7241D673CF97F35D9D4A2F /* MblMwGattChar.swift */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		06DA6DA689A9E6F5896BBD5819A9B41B /* dataprocessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 559338DDA63AD90C01A19E1C5D1F2BFC /* dataprocessor.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		0DD8DAB345AA005B1B84F8B084933451 /* Image+OptionalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653370B57E785D1227101C02F1EAA6A7 /* Image+OptionalType.swift */; };
+		0E4D184F9186474984169CABA102CA85 /* AppearanceInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFA0314C8AA533E362FDE921BDA6E78 /* AppearanceInteractor.swift */; };
+		0E57D4E7FB49DF4D1F08AE32AE017B11 /* DFUCharacteristic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90099F9784C88DF13AC0E80CEDA81CC /* DFUCharacteristic.swift */; };
+		118716A7821B1BB688C6B17B15139BD6 /* colordetector_tcs34725.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0276FD11F1DE3537016F257B9E37DF6A /* colordetector_tcs34725.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		1344095A86FEF755B39DE3700F727A5F /* Task+Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21430A6666206FB93511C4D20ADA3728 /* Task+Delay.swift */; };
+		13F5C35C2995E6C4423B2A202EEB2094 /* ibeacon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BC3196ADD6E58F49B1627A5A45B90C39 /* ibeacon.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		141A36556DDAEBBF1284F2DA5E7D6D0B /* switch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0A31A014B96A1C4EB2ECC74E1637228 /* switch.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		16BC48D9BEE834C6AC74C40508C39C65 /* LegacyDFUServiceInitiator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0748E568C5FFCAFB39DA6740CB1DC18 /* LegacyDFUServiceInitiator.swift */; };
+		16D0513ABFF62E11FB06CF2B33DCCEEF /* SecureDFUExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECDD2E019EC20C69AB0614C2E354720 /* SecureDFUExecutor.swift */; };
+		19B5AEDC415D02C2EAB1A0BDEEA02E21 /* MetaWearData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4EB6FC7BFA0B1B1460A2D6D5B53894 /* MetaWearData.swift */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		1A49EB6326C29B55F302788836CAA2F9 /* SecureDFUControlPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1B2E7F19F4F696696022174B4BEB68 /* SecureDFUControlPoint.swift */; };
+		1B7C0E9286F1C72FBFA233031735CD6B /* dfu_operations_details.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C71BEE43195333D36B89357B94F68277 /* dfu_operations_details.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		1B8DA733D65F50CEA9405FF5261C8E3A /* crc32.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC17C9CE55FDF34219A4C5BD4398DB1 /* crc32.swift */; };
+		1B97F78001634192635AA2E98CF5001F /* DFUServiceInitiator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFED6A7970D20F3DBA5D514ABCDF285 /* DFUServiceInitiator.swift */; };
+		1C217186F59DFC015FF38E278D3EA519 /* OpacityInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BCCEC802D91332C99DEBA45051DFFC /* OpacityInteractor.swift */; };
+		1F1FDF2CBFD334611E03EFCEF886E10F /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22C916C01D25DE1C6C49530D18D421B /* Data.swift */; };
+		20D96A53F554BE7D2F3DBC974A3C62D3 /* iOSDFULibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9D2B7CC6104DB7580CC9B1A5811625A /* iOSDFULibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20E985187871E06612E009526BEBF3B7 /* conductance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36730E04DFE3B7696AD1FE5213AB22F6 /* conductance.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		21DE684A16E107C6F6FF922972F83D72 /* MblMwDataSignal+Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360D82BCCB773EB878D874872FFCA7ED /* MblMwDataSignal+Async.swift */; };
+		23AB401EA2DC9BAA435B033E704A9406 /* Bolts-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C98BA8D0DCCD7B33260FA2FF9CC3E7 /* Bolts-Swift-dummy.m */; };
+		23FAC916C3BF47D2C5BF2EFF57FDC995 /* MetaWear+Firmware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFF6E5A7ACC549C6D91E390A0C31766 /* MetaWear+Firmware.swift */; };
+		270C5E6F2D4DEFD5D92A5977B81255D2 /* LegacyDFUService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54436913FAD043CE720F9EA477A4E03B /* LegacyDFUService.swift */; };
+		297799A88DD470CF3386066ABE6C7A79 /* ClosedRange+Normalize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C33F0E64714BB4213200034BD87C9B0 /* ClosedRange+Normalize.swift */; };
+		29EBA937ADCE2F2EFF0FA4A169DC46E8 /* MetaWear+Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A3D65351C2224FE6D79EA724EDEE43 /* MetaWear+Async.swift */; };
+		2ABE35CE5634A9D8D5A2F3ED69274FBF /* Archive+Reading.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73B25B5EFB6CB9135ACDCBBB72AC36B /* Archive+Reading.swift */; };
+		306DAFC420013D741040B78DB8783CD1 /* DFUPeripheralDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B0B0CAC06F60D65EF51F2ED023A8FB /* DFUPeripheralDelegate.swift */; };
+		31811066EA196461890A53437550C3A8 /* neopixel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EE321D4F6A776877228595FF4448487 /* neopixel.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		33D60778E8FD0BA9BBB59FE7B6E21F66 /* accelerometer_mma8452q.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 534682B8CAB81FBCF799E513832BBACE /* accelerometer_mma8452q.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		347BF2EAB7E170671252B7989FB22527 /* DFUPeripheralSelectorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3575B6D74C9118C0A22B82BA76A102A6 /* DFUPeripheralSelectorDelegate.swift */; };
+		34A82126B34718E79848DD93F1D39EC4 /* Pods-fall-app-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3CB86CDC81D05E6709DCDB07A49191 /* Pods-fall-app-dummy.m */; };
+		34A8AAA048EF5D740486A95236E7F153 /* SkeletonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A891FF672BB59946BE8C6E0DA14285E /* SkeletonModifier.swift */; };
+		358E35C002A2BAEA731E5435B84545CD /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15387570DCD63060E80158E73F9B1636 /* Double.swift */; };
+		361ABED4D79AC05DB151608BD1169B80 /* DFUStreamHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053BB1B6163AA88FD463A4A4DC7F77D2 /* DFUStreamHex.swift */; };
+		36C96FB5F07E2BB6D53014B7D3A99E78 /* MetaWear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94955F4B25D1E54171F015A8024C7D13 /* MetaWear.swift */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		3705CB6E74DA0C5750DE938A99EE2745 /* OptionalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD26163CA7129361C82F995701127014 /* OptionalType.swift */; };
+		38D0BF61D3F630E0A21EF3BC43796425 /* UnitPoint+Angle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE127085C5C0566F5BBD37C7D5D2B4C /* UnitPoint+Angle.swift */; };
+		39B06EA6909DFFC0C0CB507E30028B15 /* Polyline-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F6E6DF0C45A8D666ADFE8972D79716 /* Polyline-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C5E5A999DD51EC83325F8B86C596E95 /* barometer_bosch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE46A1972C91915C4C00D5C0E935DCC /* barometer_bosch.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		3CEF74179367A557DF93D49C800F4211 /* proximity_tsl2671.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 376CBC97EEA406BA26508178836AD1E8 /* proximity_tsl2671.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		3D3BA9E179623554301EF85F9E4EC264 /* ButtonlessDFU.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82F9B75563ACE6B32E9831B29FAC1AB /* ButtonlessDFU.swift */; };
+		3F2AE47CD32CAD0D695E0A76789967E2 /* ambientlight_ltr329.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E629CCC81DADCFD092F30D6309CA4ADD /* ambientlight_ltr329.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		408E6D25175C92C8DF19EC2AD52B0473 /* Task+WhenAny.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FDCD79A1DD949F4840E6DA1BE90A22 /* Task+WhenAny.swift */; };
+		41562287569812BB4156B79AED0075B3 /* SkeletonInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056085FF176B2BF27EFBEC28ED20F689 /* SkeletonInteractor.swift */; };
+		431BE7D31B69799F9788122F064DE6C2 /* ModifiedContent+SkeletonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C79C91188878469E133E52AF8F3F67 /* ModifiedContent+SkeletonModifier.swift */; };
+		438EA614DCC67B0614ED02EC24373133 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7566FCDAC605EB3D2581B3964A2F6ACB /* Foundation.framework */; };
+		4604B5F9550A6DC309CBFF7C1D7510A6 /* DFUServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D169B9D2B30BF030FAAC50E220C53B3E /* DFUServiceController.swift */; };
+		4695EAA9D237448FE1430D39BECFE002 /* DFUFirmware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84059A5F83A85D676C68DF4BF9336307 /* DFUFirmware.swift */; };
+		4CC05DD8CA00C93A2E2FF7F412A6BD5E /* Bridging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A98CE51963E87E01A369CF544054A7 /* Bridging.swift */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		4E10AE1045C22A20A3D4FE6E9104671F /* file_operations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0AF6606A5548D4D9B70814F3398D6B1 /* file_operations.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		4F7DB0A7CC312904DECB2383F8E06FF9 /* OpacityPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51253DD3BF186753191029BCCAC12785 /* OpacityPresenter.swift */; };
+		4F80BDBB116B3632EF90276BDBE9102E /* threadpool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F23D7E2817EE83C1453B2C2857F3878 /* threadpool.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		4F99A698327E5FC65ECAB30EF883F24F /* DFUPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8E63C89CCA3245C0449047DFE63E13 /* DFUPeripheral.swift */; };
+		4FBD16EABE1827413D6A77797D5BD001 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7566FCDAC605EB3D2581B3964A2F6ACB /* Foundation.framework */; };
+		51256E2E038BAE58B8087F9684963798 /* String+VersionCompare.swift in Sources */ = {isa = PBXBuildFile; fileRef = B834F82FE7B38F4704A628E87A3EF7A5 /* String+VersionCompare.swift */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		548B004B13F6E97BCD34505AB5A61C96 /* logging.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 862152AD7F26D96FF2BB4E78F2D887DC /* logging.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		5576F80555081B14C9ECDE9076689EA7 /* accelerometer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B599D7AA93E5F3A0AD20156BA9E5C76B /* accelerometer.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		561D8805EADB7A5C6F50DDF7DF8BA0BD /* SecureDFUPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BFDDF54CF34F0E7B19A1B03A8D54EB /* SecureDFUPeripheral.swift */; };
+		56ECAA66D29A867A3ECB696FBB8F735F /* async_creator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 87AA2512D5DF0BCB81D2F7B50A4D5772 /* async_creator.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		57E4358DF5A349E14418DDAD0619B3E9 /* Task+ContinueWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D70476A5D8376F39F3895BD4852C69B /* Task+ContinueWith.swift */; };
+		58C8690DB3251BF7C7C0B7DEAB78A4EB /* View+SkeletonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD3E11A9363ABA47B3D35B84D86C93D /* View+SkeletonModifier.swift */; };
+		59D79A1D5F4FD80A9D5A97220E9A02B7 /* FileManager+ZIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B504C9507F4F7803E49C42B9DA14C0E /* FileManager+ZIP.swift */; };
+		5B4989B8FF9931B8850E2AC7D5E60248 /* LegacyDFUPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7DAAE7289E310EBBE64B6286F7A4C4 /* LegacyDFUPeripheral.swift */; };
+		5B842133FAACB2C3C89D5B1532F39CF3 /* FirmwareServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A301571DCAF8728E9E970E7F06330A1 /* FirmwareServer.swift */; };
+		5CC566CCC0055546155D57902D10B574 /* Executor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6C2BE9F75C07113EF7495747877B94 /* Executor.swift */; };
+		5CE56EB33B4821C61533B7A341311B5C /* settings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE153EB6C89276F08EC25AABF684AE0 /* settings.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		5E96E963655862485AFC504145A31983 /* Archive+Writing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7DA6AC47879605FADE24F6BF42E3BD /* Archive+Writing.swift */; };
+		5E98CA3D028C1823D0B3C1D11E0BA096 /* ZIPFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3384BF26211A0457C79760F641868B8E /* ZIPFoundation-dummy.m */; };
+		5F7F4A7CA246FFFFE5065801CE39461B /* DFUExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85985CB7CC9609076480F2E2AAB8499 /* DFUExecutor.swift */; };
+		602DEC7B5BE7B5C870E9BDCAFDE491D0 /* dataprocessor_config.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78FB44FEA11A21C955AD8F34BD2373A8 /* dataprocessor_config.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		611D63CC6F55C49ADC1EC551422B754C /* humidity_bme280.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B0E83FAF95A8C394DD492C54A8F7BEF /* humidity_bme280.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		6164BA752B324942E831904A9175F8BE /* MetaWear-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B769138491CD9B02A561DCEF22942435 /* MetaWear-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62130EF7924003137B6BB2F49D562CEC /* SkeletonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B386BE70DBDF75F6A5D4CEAB5934E232 /* SkeletonView.swift */; };
+		636B54447CEE73B5F2CC4B0472D35CA4 /* TaskCompletionSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29DB6A2E0B85BA74B523069C50004B0 /* TaskCompletionSource.swift */; };
+		669BE2513C71661255079C4C414F8AEA /* SecureDFUService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F0C2A7F9510CE6F681819320A56983 /* SecureDFUService.swift */; };
+		69AF9262191391F83485D4F5EC975AC8 /* event.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 453D82DF1E625327F040197D1B4706BF /* event.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		6AF947A08AB8D660D72A7F52A8C194E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7566FCDAC605EB3D2581B3964A2F6ACB /* Foundation.framework */; };
+		6B508429FA47FD4932557072D5DBC5E7 /* CBUUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7133292E454859D7EA41DE4A3261BAF /* CBUUID.swift */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		6E09B2E8C3C32CC8FE0992B4113E754E /* SecureField+OptionalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC06843AB0FF604A636F78C96A6B515 /* SecureField+OptionalType.swift */; };
+		70B996FB21F7713AD4B9E91BA82FA064 /* DFUUuidHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D4BDB7FE35C19C0117E5011F505B11 /* DFUUuidHelper.swift */; };
+		73BEDF926392DEDA657700E69E359666 /* DeviceInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBEF9023A13D397CD0C1B90987D0402 /* DeviceInformation.swift */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		73DA1A08E91355019FBDD29046833BF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7566FCDAC605EB3D2581B3964A2F6ACB /* Foundation.framework */; };
+		75D529FAEE1CA09D4F5EED925FB6B710 /* sensor_fusion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8BAB5F609E0254A475B21A7C5D03B66 /* sensor_fusion.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		772B205376BA5F0AFDB72260205826B1 /* accelerometer_bosch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94A0A45D4F4AB39D5B6B973C3BE90183 /* accelerometer_bosch.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		79CFDE0C41042BB0DA3FCBAED097D20F /* Manifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C4DAF633BA60D17B013F4344D18C4 /* Manifest.swift */; };
+		7AEF07B308BAC5CF75B0DBCC591DDAAE /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237EE9708B20513C7849C9F99DE3998C /* Task.swift */; };
+		7B6069F55296658063E89F9EDA9DC9F3 /* AppearancePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA8DFFC8993C8CE2D45A3DB46129FC /* AppearancePresenter.swift */; };
+		7ECEB7E7E2FFB9C19A464096AC2E2C2E /* version.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75C188E37AA8FB1478CB7C430F8F914D /* version.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		825341B3298E1C1DC5226A62BB794422 /* ShapeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DCAF968AF128E902C5B6FEF109C19D /* ShapeInteractor.swift */; };
+		839472C33D1D24F8F27F78B0A795CFDB /* SecureDFUServiceInitiator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88CA0760148F991A5D687F55BE70287 /* SecureDFUServiceInitiator.swift */; };
+		85741B86D64B846AC48421ACE070E9F5 /* anonymous_datasignal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F454ABDF4AAE25036B644FC7AFDBAAAB /* anonymous_datasignal.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		87E45E8305B9DF8416C47FDC0035D185 /* AnglePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B849E5315D948642BE269E311B232F6 /* AnglePresenter.swift */; };
+		8B3498D5054ABD52450EF56CBBE3C592 /* DFUStreamZip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639563B6101101BA6B27B33F1216063E /* DFUStreamZip.swift */; };
+		8CE63A3FBE80DE9E7A2238758EA729E6 /* DFUVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA62BF41AF61DB2BD4B0498FA48B1DF /* DFUVersion.swift */; };
+		9065C22B3B2A449521617805DB66430D /* LogDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AEFD98AACE5F86693A8912394DA2C9 /* LogDelegate.swift */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		9097C3D44250862BE97C7ED70D867DE9 /* PositionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266FCE420F106DB986ABF91E1BE0DA8D /* PositionPresenter.swift */; };
+		92C5D1D7100E77D4F01CC57169FAB84A /* Optional+OptionalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8683DED748E1605BC0854A8FB8E2F24F /* Optional+OptionalType.swift */; };
+		931D7452403742E2B7286D44195602AC /* DFUController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6821B1BAB0397619D9833397F08CE7C3 /* DFUController.swift */; };
+		94C3A573FC8D853355CA109B5989DADB /* DFUControlPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A41EF74CB719DA223179A01BDEA57A /* DFUControlPoint.swift */; };
+		95312866C51E4AC726AC3A2A46E846FC /* task.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3940EAD9591E300AE6138655E136B4A6 /* task.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		9553D9C11E3D55F7190984C59046CC9F /* DFUPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3E848D7F956FC04A9CDAF708AA2370 /* DFUPacket.swift */; };
+		9579AD5BDFA0FFF41C8B179CF9012C2A /* SkeletonUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF748B3060BFCD9F38765FA4C9366CDE /* SkeletonUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95CA32FA4CF793A4ACE6D5E2A8D72C11 /* Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86624887BA1E91B6B8E2A3DC8989347 /* Archive.swift */; };
+		95E46181D8FC4AC4C20F177220805D59 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DCD7E8956055E3D990F0AB3D41937 /* Errors.swift */; };
+		9710678AAC14A670DFB1AFF54D9D0BB3 /* ShapePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECDD83E8A75522DA81E3D3B816BBB40 /* ShapePresenter.swift */; };
+		971EF4EEDE48ECE566E5F4729E370A7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7566FCDAC605EB3D2581B3964A2F6ACB /* Foundation.framework */; };
+		972A229F053C58550EF5D22D03E5670A /* LegacyDFUExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F99D12F2C247C968332138A6316ED /* LegacyDFUExecutor.swift */; };
+		98B89ACD3F78CE3E1F5087AFDC422195 /* DFUStreamBin.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD46A2DA21B6820BECF72C0E0CDA7DBE /* DFUStreamBin.swift */; };
+		9908D2DDA2DA69130099CF82A5497E4A /* Toggle+OptionalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98CC05545CD4B9DBDC990ABBCD106D6 /* Toggle+OptionalType.swift */; };
+		9CF41FBD1B962DBCF26852E0A7566D25 /* AngleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8318EEE232EB43F5B4BE156A759C5861 /* AngleInteractor.swift */; };
+		9E8FB17A9E078384CA3A82D3B36BA5DC /* memory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55F04DA2CBD2BCF8D7651AE992A17D51 /* memory.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		A0D1AC1791702A0EE1ECB7A4F6E4D9BC /* serialpassthrough.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8733CC0A6F1531CF2C03B780389578DB /* serialpassthrough.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		A16B160F2AC967782BD8EA367D129388 /* metawearboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 612EF7F955E4454D8880C164317C001B /* metawearboard.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		A1E164FC83F288CEE2CC3C3984C3E67C /* MetaWear+LED.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91A9BB3500BF1C8E4B88AD174133035 /* MetaWear+LED.swift */; };
+		A32EF247094CCE11F4796FFFDF02A2B8 /* MetaWear-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F1F44F9C565A3F54B319922BDF99A9 /* MetaWear-dummy.m */; };
+		A506B533D69B1C29A3CE76F9F237F7A6 /* SkeletonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DF7662AAC9C7B72DBDC2E24DB1D753 /* SkeletonList.swift */; };
+		A558C7A5C02A4E520E198B4C3BD5A863 /* haptic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02A77413B0F835C466FDE0C5919414E9 /* haptic.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		A5669AFD566D3CBEC6BBC1B0C6A9D4AE /* SecureDFUPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BD7B44E225FB66049F907CA59A60D3 /* SecureDFUPacket.swift */; };
+		A784D75B40E4254F0727C3476008CB63 /* FirmwareBuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DE54E8E3330864492D5659CABFEB61 /* FirmwareBuild.swift */; };
+		A9833E20E32F1DD0BE48FDB9D4A9B6C1 /* debug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CE4CEBC1AA7207DB01BA227DFFAB4FA /* debug.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		A9ECF13DC52C6742BFFCA3112B62B975 /* Task+WhenAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC185E2C85CC09E91AA0B31B61E27B7 /* Task+WhenAll.swift */; };
+		AB196DB9F729BF37AC41DAF9C841E89D /* IntelHex2BinConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165FDCA92A8717A3D446A54A5B97D8AA /* IntelHex2BinConverter.swift */; };
+		AD1607DC1954AF94202D4F77BFF8E24F /* ManifestFirmwareInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D015DEE246C8F476D51889DD12DF6D4 /* ManifestFirmwareInfo.swift */; };
+		AD9B77A674504F50780131A1D14907E1 /* Data+Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8045E8B187D1863F4B4877DADD1B06DF /* Data+Compression.swift */; };
+		B16759EC5A2AD3D41BEA5F384DFB479A /* Text+OptionalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEBD80A529B1C07F10FEFAE339A2621 /* Text+OptionalType.swift */; };
+		B1F629FFB4D6B58AD6E04795A20F7E93 /* LegacyDFUPeripheralDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB3616484EA9386BF90A03361F0CB67 /* LegacyDFUPeripheralDelegate.swift */; };
+		B5B7C6F2730CF7A3CAAB9EE151EEB71B /* cbindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBE701FC3CB2DD6E4C087B171FCD08F /* cbindings.swift */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		B6A90CA3B40E52351469AFF46589A0FD /* Polyline.h in Headers */ = {isa = PBXBuildFile; fileRef = 9926828917B1ECE69ECD62D73DF10348 /* Polyline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7320AE35D8BE078FFACD4AC1DB1F63B /* SkeletonUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0238077FCD0393FDF5DF2347510018 /* SkeletonUI-dummy.m */; };
+		B9E4BE438F0711515CDD75023252CCA9 /* responseheader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E767C0BA8FB8B50D722509AC7D603C2 /* responseheader.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		BBDF31B34E37575116AEDEBF2BB9B701 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7566FCDAC605EB3D2581B3964A2F6ACB /* Foundation.framework */; };
+		BBE9E6E52108516E4C287AAEE9160000 /* multichanneltemperature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 695CD31FC4AC553C33038FF8A1F9B95F /* multichanneltemperature.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		BCDD9676434590B72CB33D69A8EAC71D /* TextField+OptionalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146BA2E6A364033EEB495FD6DE3EADB1 /* TextField+OptionalType.swift */; };
+		BE6C87072F4F495D8CB5A9A64284A9C7 /* MblMwEvent+Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9016A848AB163F7629E97FE2F3A12AB /* MblMwEvent+Async.swift */; };
+		BEA62D39C6905EEC9691E68F58622D0F /* CoreLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E87928BD663CD05DE93E5DCBFA3C4 /* CoreLocation.swift */; };
+		C0A2FDB91B0EE453A93A77F26052F878 /* LoggerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E210B9098FFCBDE20AB2FD47635AA8 /* LoggerDelegate.swift */; };
+		C16EBA19AEC3CBC7B14E2489D45507C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7566FCDAC605EB3D2581B3964A2F6ACB /* Foundation.framework */; };
+		C4BAFF2CDF46D640521B2BB8A8BD401E /* gyro_bosch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93196815FDD5B278D011791BEB2EDE7C /* gyro_bosch.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		C8BCB8CBB8FB14E398A72FD68C34D964 /* macro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD3451088FD4A290B93A4BDB12810E89 /* macro.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		CAED286E6028E560F51AA7952520F632 /* moduleinfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D2CC22E9D7C27CA7520647C64E0AD80 /* moduleinfo.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		CD0B46BEA91C690037352E4624D5D443 /* timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94471C7C24907814E2BEEAFBFDAD1F1B /* timer.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		D0DD5463F075AA2300AA953722562725 /* Bolts-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA681600790FEB149FEA3ED2BB3A0913 /* Bolts-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D24DDE5BE69A64E0D38FC758165F2CB6 /* SkeletonShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = E054E9662BDC3D02061DF98D68BE1255 /* SkeletonShape.swift */; };
+		D2AC66C0E3DE2F1779D452646D6757AA /* Archive+MemoryFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF066F86DA1200612DA883B5BA2375E9 /* Archive+MemoryFile.swift */; };
+		D330D53A824CC77465035466324606BB /* miniz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 814FD4C36BF30C4B692967522D2D38DE /* miniz.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		D450CAEAF9955973AA6C3E7B183989FD /* MultilinePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2362AA9E5941CDACFF07A6877E91EC /* MultilinePresenter.swift */; };
+		D57CDE25343868F348335A57938F2BD1 /* ZIPFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C502F4F6978C994D08ED410187A313E /* ZIPFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D92718A4763DA551FF5CA8BB0134CFD9 /* Data+Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D2A0E88DE8F820DD218AA925BFE158 /* Data+Serialization.swift */; };
+		DBBF3E5BE646898F4BCD523BA1E2E7F9 /* magnetometer_bmm150.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03DBA500906253AF03FB94346278E6D6 /* magnetometer_bmm150.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		DD5119FA17A9BD373BBE338EEF720B3F /* Polyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E25D26EB0E379C4C8942DBD7E65786E /* Polyline.swift */; };
+		DF87975C01C3B2BE9745A5B243171798 /* Polyline-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B8A4916989ADBC9B83C13C932675B3 /* Polyline-dummy.m */; };
+		E293363F367EB3C3A51958EA1B61A946 /* datainterpreter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F84A2663CD57AEAB247709251A2127F8 /* datainterpreter.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		E327FF2A0C754CF517F5604330776AFB /* RadiusInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A47AEB80DD0220C8DD5C75E40F1838 /* RadiusInteractor.swift */; };
+		E3DAAE18F7E4716534A1EA33C399CC02 /* SecureDFUPeripheralDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC5A666C40FBFF42C2502D801596717 /* SecureDFUPeripheralDelegate.swift */; };
+		E499D30FA0FA28F0BB88408141C9D208 /* ZipArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336A72034E9A4328179ED6ED393F4AF8 /* ZipArchive.swift */; };
+		E558908F95CFFFAE90C9CAC9A54F9381 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E4023520A82EAF89BE8E4F936C4452 /* CoreBluetooth.framework */; };
+		E5F68337FC5D1B94646D35F7D5E29712 /* DFUStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7741A5D99E46C32B4043E863CE63C032 /* DFUStream.swift */; };
+		E74199AF8D47A9F53A9513D8C28EB540 /* datasignal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F0A6AAA26DA76F90DED362F05C90AD1 /* datasignal.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		E753A492EBC2112183A8FD84663EE4D6 /* DFUServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE80F79559A9D688FD71197277D346B /* DFUServiceDelegate.swift */; };
+		E7588C8D5646547656733E7AA6C0E25D /* dfu_utility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B9FF324036120025486114463E21B9 /* dfu_utility.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		E8A0028C8305882E88E9422B27F795B3 /* LoggerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B75AC556FE26C0FD7DC3BF70472B1C /* LoggerHelper.swift */; };
+		EB71F0EC219BC484233B6F74E3D17FE1 /* led.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2AD4FDCD3E10B2961A0497B7CF580B7 /* led.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		ECEDB4B733F67599FE8F9C7C11DCB03A /* DFUStarterPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1952E0FEC28C7C0C0906BDFDD601DCE /* DFUStarterPeripheral.swift */; };
+		EE3B934CF57C7A7E1D1380CB1E05601C /* AnimationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C88970E897E5B831AD69EA70280CAC /* AnimationInteractor.swift */; };
+		EE649C997CCB4005297D7195AF2D7B0F /* DFUService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEFA9AEC2667A2378F5E71F236FA106 /* DFUService.swift */; };
+		EEA3E02044300ED77057B9DD43B9BB63 /* RadiusPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5830117FAEEB3297DE0BFE6DB820F3ED /* RadiusPresenter.swift */; };
+		EF7C077FFB519B2EC8770D07A2448EDA /* SoftdeviceBootloaderInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD28267A60C80B4C298F27A09F1D9FD8 /* SoftdeviceBootloaderInfo.swift */; };
+		F125E09B88FD3B834260D0134D421D73 /* ScannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797745CF2FAE871D06A31DB9C0849DA /* ScannerModel.swift */; };
+		F131B6EFDBE7BAB6D3EE98FABEAD1B91 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32F628EF37CE0E10D63997570C74CB60 /* utils.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		F3937A0DBE7E97DED7149B9E0DFCAE4C /* DFUServiceSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = C906A5BB5F66BB2401B95906E9331FFA /* DFUServiceSelector.swift */; };
+		F514839587190D6A2980DCF3D8909AF0 /* MultilineInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60996760D0D71A5E500E3D09753E3D49 /* MultilineInteractor.swift */; };
+		F6CE64B209132E166997CAE78230D487 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6BDA8615DA938221221B22E7DE8004 /* Entry.swift */; };
+		F73D5877C4A4DEA16C183A6E96214730 /* MetaWearScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2916AE1CD4F8EB84F6E03821594704 /* MetaWearScanner.swift */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		F8929C64105A3A813E83D48A46E34416 /* dfu_operations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 515EF13B92EAF1B127439021053A0D8C /* dfu_operations.cpp */; settings = {COMPILER_FLAGS = "-Wno-documentation -Wno-comma"; }; };
+		FD17FD583FE3DB3DF81E9A73DA2A3C3A /* DFUPeripheralSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C81C18A833244910BF3C9C8D55C782 /* DFUPeripheralSelector.swift */; };
+		FEC273A05BEF979DE5EBDCBBC6AFD912 /* Pods-fall-app-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD8C034DD23B2D599ADAFF10BEA4FC90 /* Pods-fall-app-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AD5BD6C37989C05775B29A1EA18E8DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA15C8469D67684160CC2A7098EB841C;
+			remoteInfo = ZIPFoundation;
+		};
+		88B37E0C19DFB49B6AE2588D82BD27C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9506C7FCDAE6E6967A99655F452EEE93;
+			remoteInfo = iOSDFULibrary;
+		};
+		95478D18DA14091208B23139F5729868 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA1CEDB360B77644C934EAD86B37FCB5;
+			remoteInfo = "Bolts-Swift";
+		};
+		AEBADAAE217ABED4CD325A153A59AE50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2019A3E3844591F019A985A35E5C2D39;
+			remoteInfo = Polyline;
+		};
+		D5790CF839A92D4D1CC73497DB4C9BB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA1CEDB360B77644C934EAD86B37FCB5;
+			remoteInfo = "Bolts-Swift";
+		};
+		D74F3CD73F583F3A2D7334CE236EA4BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA15C8469D67684160CC2A7098EB841C;
+			remoteInfo = ZIPFoundation;
+		};
+		E4026453D35C0B9A2B971A12198BE2EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6510766A9670BFA3B251E2A62446FC5D;
+			remoteInfo = SkeletonUI;
+		};
+		ECB6931FE71AC918E305922FC3C3BA77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E8BB3BAFA6478784A9A7DD76C8A1F3C;
+			remoteInfo = MetaWear;
+		};
+		EF9FFE5844CD94578045517E3AC3C971 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9506C7FCDAE6E6967A99655F452EEE93;
+			remoteInfo = iOSDFULibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01ACD817495FA337BD16F246446DF246 /* MetaWear.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MetaWear.release.xcconfig; sourceTree = "<group>"; };
+		0276FD11F1DE3537016F257B9E37DF6A /* colordetector_tcs34725.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = colordetector_tcs34725.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/sensor/cpp/colordetector_tcs34725.cpp"; sourceTree = "<group>"; };
+		02A77413B0F835C466FDE0C5919414E9 /* haptic.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = haptic.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/peripheral/cpp/haptic.cpp"; sourceTree = "<group>"; };
+		02AFED6574D681FE7BB1C16AD1E9D5A7 /* SkeletonForEach.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonForEach.swift; path = Sources/SkeletonUI/Skeleton/SkeletonForEach.swift; sourceTree = "<group>"; };
+		03DBA500906253AF03FB94346278E6D6 /* magnetometer_bmm150.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = magnetometer_bmm150.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/sensor/cpp/magnetometer_bmm150.cpp"; sourceTree = "<group>"; };
+		053BB1B6163AA88FD463A4A4DC7F77D2 /* DFUStreamHex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DFUStreamHex.swift; path = iOSDFULibrary/Classes/Utilities/Streams/DFUStreamHex.swift; sourceTree = "<group>"; };
+		056085FF176B2BF27EFBEC28ED20F689 /* SkeletonInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonInteractor.swift; path = Sources/SkeletonUI/Skeleton/SkeletonInteractor.swift; sourceTree = "<group>"; };
+		06C1870A4C63A8C9A16A3CB92EDF86E8 /* Bolts-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Bolts-Swift.modulemap"; sourceTree = "<group>"; };
+		09EA31FB7FEFA19A5B539B903E8E602B /* Pods-fall-app-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-fall-app-acknowledgements.plist"; sourceTree = "<group>"; };
+		0B4EB6FC7BFA0B1B1460A2D6D5B53894 /* MetaWearData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MetaWearData.swift; path = MetaWear/Core/MetaWearData.swift; sourceTree = "<group>"; };
+		0B7DAAE7289E310EBBE64B6286F7A4C4 /* LegacyDFUPeripheral.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LegacyDFUPeripheral.swift; path = iOSDFULibrary/Classes/Implementation/LegacyDFU/Peripherals/LegacyDFUPeripheral.swift; sourceTree = "<group>"; };
+		0BA5D7FFFBF0A4663E3C50169241EC76 /* Pods-fall-app-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-fall-app-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0BA62BF41AF61DB2BD4B0498FA48B1DF /* DFUVersion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DFUVersion.swift; path = iOSDFULibrary/Classes/Implementation/LegacyDFU/Characteristics/DFUVersion.swift; sourceTree = "<group>"; };
+		0EE46A1972C91915C4C00D5C0E935DCC /* barometer_bosch.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = barometer_bosch.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/sensor/cpp/barometer_bosch.cpp"; sourceTree = "<group>"; };
+		0FEBD80A529B1C07F10FEFAE339A2621 /* Text+OptionalType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Text+OptionalType.swift"; path = "Sources/SkeletonUI/Extensions/Text+OptionalType.swift"; sourceTree = "<group>"; };
+		0FFA0314C8AA533E362FDE921BDA6E78 /* AppearanceInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppearanceInteractor.swift; path = Sources/SkeletonUI/Appearance/AppearanceInteractor.swift; sourceTree = "<group>"; };
+		10A98CE51963E87E01A369CF544054A7 /* Bridging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bridging.swift; path = MetaWear/Core/Bridging.swift; sourceTree = "<group>"; };
+		10DCAF968AF128E902C5B6FEF109C19D /* ShapeInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShapeInteractor.swift; path = Sources/SkeletonUI/Shape/ShapeInteractor.swift; sourceTree = "<group>"; };
+		146BA2E6A364033EEB495FD6DE3EADB1 /* TextField+OptionalType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TextField+OptionalType.swift"; path = "Sources/SkeletonUI/Extensions/TextField+OptionalType.swift"; sourceTree = "<group>"; };
+		15387570DCD63060E80158E73F9B1636 /* Double.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Double.swift; path = iOSDFULibrary/Classes/Utilities/Double.swift; sourceTree = "<group>"; };
+		1579A0986D70C32D7BED1A855C31EF4B /* Bolts-Swift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Bolts-Swift"; path = BoltsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		165FDCA92A8717A3D446A54A5B97D8AA /* IntelHex2BinConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntelHex2BinConverter.swift; path = iOSDFULibrary/Classes/Utilities/HexToBinConverter/IntelHex2BinConverter.swift; sourceTree = "<group>"; };
+		19D4BDB7FE35C19C0117E5011F505B11 /* DFUUuidHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DFUUuidHelper.swift; path = iOSDFULibrary/Classes/Implementation/DFUUuidHelper.swift; sourceTree = "<group>"; };
+		1A976702438F70884A5BFCC5DEA2A573 /* MetaWear.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MetaWear.modulemap; sourceTree = "<group>"; };
+		1B0E83FAF95A8C394DD492C54A8F7BEF /* humidity_bme280.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = humidity_bme280.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/sensor/cpp/humidity_bme280.cpp"; sourceTree = "<group>"; };
+		1CBEF9023A13D397CD0C1B90987D0402 /* DeviceInformation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceInformation.swift; path = MetaWear/Core/DeviceInformation.swift; sourceTree = "<group>"; };
+		1EE3A4D593AA5AC3FDAC17806EB29195 /* Polyline */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Polyline; path = Polyline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE80F79559A9D688FD71197277D346B /* DFUServiceDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DFUServiceDelegate.swift; path = iOSDFULibrary/Classes/Implementation/DFUServiceDelegate.swift; sourceTree = "<group>"; };
+		21430A6666206FB93511C4D20ADA3728 /* Task+Delay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Task+Delay.swift"; path = "Sources/BoltsSwift/Task+Delay.swift"; sourceTree = "<group>"; };
+		21B1375088A0310C7AE2BE4C8188D12F /* iOSDFULibrary */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iOSDFULibrary; path = iOSDFULibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B9FF324036120025486114463E21B9 /* dfu_utility.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = dfu_utility.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/dfu/cpp/dfu_utility.cpp"; sourceTree = "<group>"; };
+		237EE9708B20513C7849C9F99DE3998C /* Task.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Task.swift; path = Sources/BoltsSwift/Task.swift; sourceTree = "<group>"; };
+		266FCE420F106DB986ABF91E1BE0DA8D /* PositionPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PositionPresenter.swift; path = Sources/SkeletonUI/Position/PositionPresenter.swift; sourceTree = "<group>"; };
+		26AEFD98AACE5F86693A8912394DA2C9 /* LogDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogDelegate.swift; path = MetaWear/Core/LogDelegate.swift; sourceTree = "<group>"; };
+		26F1F44F9C565A3F54B319922BDF99A9 /* MetaWear-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MetaWear-dummy.m"; sourceTree = "<group>"; };
+		2E5192D8DB7E6203FBE622C517F3BF96 /* Pods-fall-app-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-fall-app-frameworks.sh"; sourceTree = "<group>"; };
+		2EFED6A7970D20F3DBA5D514ABCDF285 /* DFUServiceInitiator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DFUServiceInitiator.swift; path = iOSDFULibrary/Classes/Implementation/DFUServiceInitiator.swift; sourceTree = "<group>"; };
+		2F0A6AAA26DA76F90DED362F05C90AD1 /* datasignal.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = datasignal.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/core/cpp/datasignal.cpp"; sourceTree = "<group>"; };
+		2F23D7E2817EE83C1453B2C2857F3878 /* threadpool.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = threadpool.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/platform/cpp/threadpool.cpp"; sourceTree = "<group>"; };
+		308C9EA754DBA0034722F37A2F5EBD22 /* ZIPFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZIPFoundation.release.xcconfig; sourceTree = "<group>"; };
+		30B7AFC5A190108A0AA45235E2DFD713 /* Polyline-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Polyline-prefix.pch"; sourceTree = "<group>"; };
+		32B9F6A5AB447095918B4A7BC93E2242 /* Polyline.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Polyline.debug.xcconfig; sourceTree = "<group>"; };
+		32F628EF37CE0E10D63997570C74CB60 /* utils.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = utils.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/sensor/cpp/utils.cpp"; sourceTree = "<group>"; };
+		336A72034E9A4328179ED6ED393F4AF8 /* ZipArchive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZipArchive.swift; path = iOSDFULibrary/Classes/Utilities/ZipArchive.swift; sourceTree = "<group>"; };
+		3384BF26211A0457C79760F641868B8E /* ZIPFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZIPFoundation-dummy.m"; sourceTree = "<group>"; };
+		33BB021B26F1E2177CD1ECA10766CB49 /* PositionInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PositionInteractor.swift; path = Sources/SkeletonUI/Position/PositionInteractor.swift; sourceTree = "<group>"; };
+		33DF7662AAC9C7B72DBDC2E24DB1D753 /* SkeletonList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonList.swift; path = Sources/SkeletonUI/Skeleton/SkeletonList.swift; sourceTree = "<group>"; };
+		3575B6D74C9118C0A22B82BA76A102A6 /* DFUPeripheralSelectorDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DFUPeripheralSelectorDelegate.swift; path = iOSDFULibrary/Classes/Implementation/DFUPeripheralSelectorDelegate.swift; sourceTree = "<group>"; };
+		360D82BCCB773EB878D874872FFCA7ED /* MblMwDataSignal+Async.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MblMwDataSignal+Async.swift"; path = "MetaWear/AsyncUtils/MblMwDataSignal+Async.swift"; sourceTree = "<group>"; };
+		36730E04DFE3B7696AD1FE5213AB22F6 /* conductance.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = conductance.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/sensor/cpp/conductance.cpp"; sourceTree = "<group>"; };
+		376CBC97EEA406BA26508178836AD1E8 /* proximity_tsl2671.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = proximity_tsl2671.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/sensor/cpp/proximity_tsl2671.cpp"; sourceTree = "<group>"; };
+		37EE7FDDA19DFC43592CB10088C7060F /* Polyline.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Polyline.modulemap; sourceTree = "<group>"; };
+		3940EAD9591E300AE6138655E136B4A6 /* task.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = task.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/platform/cpp/task.cpp"; sourceTree = "<group>"; };
+		399DCD7E8956055E3D990F0AB3D41937 /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/BoltsSwift/Errors.swift; sourceTree = "<group>"; };
+		3A301571DCAF8728E9E970E7F06330A1 /* FirmwareServer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FirmwareServer.swift; path = MetaWear/DFU/FirmwareServer.swift; sourceTree = "<group>"; };
+		3A8E63C89CCA3245C0449047DFE63E13 /* DFUPeripheral.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DFUPeripheral.swift; path = iOSDFULibrary/Classes/Implementation/GenericDFU/DFUPeripheral.swift; sourceTree = "<group>"; };
+		3C502F4F6978C994D08ED410187A313E /* ZIPFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZIPFoundation-umbrella.h"; sourceTree = "<group>"; };
+		3CE4CEBC1AA7207DB01BA227DFFAB4FA /* debug.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = debug.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/core/cpp/debug.cpp"; sourceTree = "<group>"; };
+		3ECDD83E8A75522DA81E3D3B816BBB40 /* ShapePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShapePresenter.swift; path = Sources/SkeletonUI/Shape/ShapePresenter.swift; sourceTree = "<group>"; };
+		428181B51BD8F00F29545E8BF077ACDE /* iOSDFULibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iOSDFULibrary.modulemap; sourceTree = "<group>"; };
+		43C81C18A833244910BF3C9C8D55C782 /* DFUPeripheralSelector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DFUPeripheralSelector.swift; path = iOSDFULibrary/Classes/Implementation/DFUPeripheralSelector.swift; sourceTree = "<group>"; };
+		453D82DF1E625327F040197D1B4706BF /* event.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = event.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/core/cpp/event.cpp"; sourceTree = "<group>"; };
+		4797745CF2FAE871D06A31DB9C0849DA /* ScannerModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScannerModel.swift; path = MetaWear/UI/ScannerModel.swift; sourceTree = "<group>"; };
+		48A4A6EDC08C8AC933D0DCD507E9D173 /* ZIPFoundation */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZIPFoundation; path = ZIPFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C33F0E64714BB4213200034BD87C9B0 /* ClosedRange+Normalize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ClosedRange+Normalize.swift"; path = "Sources/SkeletonUI/Extensions/ClosedRange+Normalize.swift"; sourceTree = "<group>"; };
+		4CAA8DFFC8993C8CE2D45A3DB46129FC /* AppearancePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppearancePresenter.swift; path = Sources/SkeletonUI/Appearance/AppearancePresenter.swift; sourceTree = "<group>"; };
+		4DBE812C1176C78F4A72C794384E7615 /* Bolts-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Bolts-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		51253DD3BF186753191029BCCAC12785 /* OpacityPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpacityPresenter.swift; path = Sources/SkeletonUI/Opacity/OpacityPresenter.swift; sourceTree = "<group>"; };
+		515EF13B92EAF1B127439021053A0D8C /* dfu_operations.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = dfu_operations.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/dfu/cpp/dfu_operations.cpp"; sourceTree = "<group>"; };
+		52F5869A78AFEA7FBB6521E3A45403EA /* Pods-fall-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fall-app.release.xcconfig"; sourceTree = "<group>"; };
+		534682B8CAB81FBCF799E513832BBACE /* accelerometer_mma8452q.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = accelerometer_mma8452q.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/sensor/cpp/accelerometer_mma8452q.cpp"; sourceTree = "<group>"; };
+		54436913FAD043CE720F9EA477A4E03B /* LegacyDFUService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LegacyDFUService.swift; path = iOSDFULibrary/Classes/Implementation/LegacyDFU/Services/LegacyDFUService.swift; sourceTree = "<group>"; };
+		55752BD45ACB4C7C1B1C61F1CD29E400 /* SkeletonUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkeletonUI-prefix.pch"; sourceTree = "<group>"; };
+		559338DDA63AD90C01A19E1C5D1F2BFC /* dataprocessor.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = dataprocessor.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/processor/cpp/dataprocessor.cpp"; sourceTree = "<group>"; };
+		55F04DA2CBD2BCF8D7651AE992A17D51 /* memory.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = memory.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/platform/cpp/memory.cpp"; sourceTree = "<group>"; };
+		5830117FAEEB3297DE0BFE6DB820F3ED /* RadiusPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadiusPresenter.swift; path = Sources/SkeletonUI/Radius/RadiusPresenter.swift; sourceTree = "<group>"; };
+		5C8E87928BD663CD05DE93E5DCBFA3C4 /* CoreLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreLocation.swift; path = Sources/Polyline/CoreLocation.swift; sourceTree = "<group>"; };
+		5E3A62247D298310C4F3DA11523D6A68 /* SkeletonPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonPresenter.swift; path = Sources/SkeletonUI/Skeleton/SkeletonPresenter.swift; sourceTree = "<group>"; };
+		60996760D0D71A5E500E3D09753E3D49 /* MultilineInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultilineInteractor.swift; path = Sources/SkeletonUI/Multiline/MultilineInteractor.swift; sourceTree = "<group>"; };
+		612EF7F955E4454D8880C164317C001B /* metawearboard.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = metawearboard.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/impl/cpp/metawearboard.cpp"; sourceTree = "<group>"; };
+		61744A820FFA67496F4D13DB1904BD54 /* Bolts-Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Bolts-Swift-Info.plist"; sourceTree = "<group>"; };
+		6177EA1C5A1082490294F10D4A59B9C7 /* iOSDFULibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSDFULibrary-prefix.pch"; sourceTree = "<group>"; };
+		62C79C91188878469E133E52AF8F3F67 /* ModifiedContent+SkeletonModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ModifiedContent+SkeletonModifier.swift"; path = "Sources/SkeletonUI/Extensions/ModifiedContent+SkeletonModifier.swift"; sourceTree = "<group>"; };
+		639563B6101101BA6B27B33F1216063E /* DFUStreamZip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DFUStreamZip.swift; path = iOSDFULibrary/Classes/Utilities/Streams/DFUStreamZip.swift; sourceTree = "<group>"; };
+		653370B57E785D1227101C02F1EAA6A7 /* Image+OptionalType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Image+OptionalType.swift"; path = "Sources/SkeletonUI/Extensions/Image+OptionalType.swift"; sourceTree = "<group>"; };
+		667CC4F735D7467B2BD908AA2C950957 /* gpio.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = gpio.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/sensor/cpp/gpio.cpp"; sourceTree = "<group>"; };
+		6821B1BAB0397619D9833397F08CE7C3 /* DFUController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DFUController.swift; path = iOSDFULibrary/Classes/Implementation/GenericDFU/DFUController.swift; sourceTree = "<group>"; };
+		695CD31FC4AC553C33038FF8A1F9B95F /* multichanneltemperature.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = multichanneltemperature.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/sensor/cpp/multichanneltemperature.cpp"; sourceTree = "<group>"; };
+		6BEFA9AEC2667A2378F5E71F236FA106 /* DFUService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DFUService.swift; path = iOSDFULibrary/Classes/Implementation/GenericDFU/DFUService.swift; sourceTree = "<group>"; };
+		6D2CC22E9D7C27CA7520647C64E0AD80 /* moduleinfo.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = moduleinfo.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/core/cpp/moduleinfo.cpp"; sourceTree = "<group>"; };
+		6DF05E43BB6C2B8C1663E21C4EF69375 /* SkeletonUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkeletonUI.release.xcconfig; sourceTree = "<group>"; };
+		6E2362AA9E5941CDACFF07A6877E91EC /* MultilinePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultilinePresenter.swift; path = Sources/SkeletonUI/Multiline/MultilinePresenter.swift; sourceTree = "<group>"; };
+		6EC06843AB0FF604A636F78C96A6B515 /* SecureField+OptionalType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SecureField+OptionalType.swift"; path = "Sources/SkeletonUI/Extensions/SecureField+OptionalType.swift"; sourceTree = "<group>"; };
+		6EE321D4F6A776877228595FF4448487 /* neopixel.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = neopixel.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/peripheral/cpp/neopixel.cpp"; sourceTree = "<group>"; };
+		6EFF6E5A7ACC549C6D91E390A0C31766 /* MetaWear+Firmware.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MetaWear+Firmware.swift"; path = "MetaWear/DFU/MetaWear+Firmware.swift"; sourceTree = "<group>"; };
+		73E210B9098FFCBDE20AB2FD47635AA8 /* LoggerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoggerDelegate.swift; path = iOSDFULibrary/Classes/Utilities/Logging/LoggerDelegate.swift; sourceTree = "<group>"; };
+		7566FCDAC605EB3D2581B3964A2F6ACB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75C188E37AA8FB1478CB7C430F8F914D /* version.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = version.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/core/cpp/version.cpp"; sourceTree = "<group>"; };
+		7741A5D99E46C32B4043E863CE63C032 /* DFUStream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DFUStream.swift; path = iOSDFULibrary/Classes/Utilities/Streams/DFUStream.swift; sourceTree = "<group>"; };
+		786376453A61EF96708F49064E377595 /* MetaWear-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MetaWear-Info.plist"; sourceTree = "<group>"; };
+		78FB44FEA11A21C955AD8F34BD2373A8 /* dataprocessor_config.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = dataprocessor_config.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/processor/cpp/dataprocessor_config.cpp"; sourceTree = "<group>"; };
+		793993227B3B9304D59906E464A24C78 /* Pods-fall-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fall-app.debug.xcconfig"; sourceTree = "<group>"; };
+		79F6E6DF0C45A8D666ADFE8972D79716 /* Polyline-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Polyline-umbrella.h"; sourceTree = "<group>"; };
+		7B504C9507F4F7803E49C42B9DA14C0E /* FileManager+ZIP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FileManager+ZIP.swift"; path = "Sources/ZIPFoundation/FileManager+ZIP.swift"; sourceTree = "<group>"; };
+		7D70476A5D8376F39F3895BD4852C69B /* Task+ContinueWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Task+ContinueWith.swift"; path = "Sources/BoltsSwift/Task+ContinueWith.swift"; sourceTree = "<group>"; };
+		7D900859604F35FD5535CD43E47B1BB4 /* Bolts-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bolts-Swift-prefix.pch"; sourceTree = "<group>"; };
+		7DF415FCE4EC0E6B83191E69BD55A61F /* MetaWear */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MetaWear; path = MetaWear.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC185E2C85CC09E91AA0B31B61E27B7 /* Task+WhenAll.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Task+WhenAll.swift"; path = "Sources/BoltsSwift/Task+WhenAll.swift"; sourceTree = "<group>"; };
+		7ECDD2E019EC20C69AB0614C2E354720 /* SecureDFUExecutor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecureDFUExecutor.swift; path = iOSDFULibrary/Classes/Implementation/SecureDFU/DFU/SecureDFUExecutor.swift; sourceTree = "<group>"; };
+		8045E8B187D1863F4B4877DADD1B06DF /* Data+Compression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Compression.swift"; path = "Sources/ZIPFoundation/Data+Compression.swift"; sourceTree = "<group>"; };
+		807D2FF75EF9079FA2263E688E36B33B /* MetaWear-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MetaWear-prefix.pch"; sourceTree = "<group>"; };
+		814FD4C36BF30C4B692967522D2D38DE /* miniz.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = miniz.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/dfu/cpp/miniz.cpp"; sourceTree = "<group>"; };
+		8318EEE232EB43F5B4BE156A759C5861 /* AngleInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AngleInteractor.swift; path = Sources/SkeletonUI/Angle/AngleInteractor.swift; sourceTree = "<group>"; };
+		83A47AEB80DD0220C8DD5C75E40F1838 /* RadiusInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadiusInteractor.swift; path = Sources/SkeletonUI/Radius/RadiusInteractor.swift; sourceTree = "<group>"; };
+		83FDCD79A1DD949F4840E6DA1BE90A22 /* Task+WhenAny.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Task+WhenAny.swift"; path = "Sources/BoltsSwift/Task+WhenAny.swift"; sourceTree = "<group>"; };
+		84059A5F83A85D676C68DF4BF9336307 /* DFUFirmware.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DFUFirmware.swift; path = iOSDFULibrary/Classes/Implementation/Firmware/DFUFirmware.swift; sourceTree = "<group>"; };
+		862152AD7F26D96FF2BB4E78F2D887DC /* logging.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = logging.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/core/cpp/logging.cpp"; sourceTree = "<group>"; };
+		8683DED748E1605BC0854A8FB8E2F24F /* Optional+OptionalType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Optional+OptionalType.swift"; path = "Sources/SkeletonUI/Extensions/Optional+OptionalType.swift"; sourceTree = "<group>"; };
+		8733CC0A6F1531CF2C03B780389578DB /* serialpassthrough.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = serialpassthrough.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/sensor/cpp/serialpassthrough.cpp"; sourceTree = "<group>"; };
+		87AA2512D5DF0BCB81D2F7B50A4D5772 /* async_creator.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = async_creator.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/platform/cpp/async_creator.cpp"; sourceTree = "<group>"; };
+		8A891FF672BB59946BE8C6E0DA14285E /* SkeletonModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonModifier.swift; path = Sources/SkeletonUI/Modifiers/SkeletonModifier.swift; sourceTree = "<group>"; };
+		8B15EDB763217079E241863761C771F5 /* Polyline.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Polyline.release.xcconfig; sourceTree = "<group>"; };
+		8CD3E11A9363ABA47B3D35B84D86C93D /* View+SkeletonModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View+SkeletonModifier.swift"; path = "Sources/SkeletonUI/Extensions/View+SkeletonModifier.swift"; sourceTree = "<group>"; };
+		8DBE701FC3CB2DD6E4C087B171FCD08F /* cbindings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = cbindings.swift; path = "MetaWear/MetaWear-SDK-Cpp/bindings/swift/cbindings.swift"; sourceTree = "<group>"; };
+		8E25D26EB0E379C4C8942DBD7E65786E /* Polyline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Polyline.swift; path = Sources/Polyline/Polyline.swift; sourceTree = "<group>"; };
+		93196815FDD5B278D011791BEB2EDE7C /* gyro_bosch.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = gyro_bosch.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/sensor/cpp/gyro_bosch.cpp"; sourceTree = "<group>"; };
+		94471C7C24907814E2BEEAFBFDAD1F1B /* timer.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = timer.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/core/cpp/timer.cpp"; sourceTree = "<group>"; };
+		94955F4B25D1E54171F015A8024C7D13 /* MetaWear.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MetaWear.swift; path = MetaWear/Core/MetaWear.swift; sourceTree = "<group>"; };
+		94A0A45D4F4AB39D5B6B973C3BE90183 /* accelerometer_bosch.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = accelerometer_bosch.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/sensor/cpp/accelerometer_bosch.cpp"; sourceTree = "<group>"; };
+		96157650E810B01D43FC5CEBC02F919C /* ZIPFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZIPFoundation-prefix.pch"; sourceTree = "<group>"; };
+		9926828917B1ECE69ECD62D73DF10348 /* Polyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Polyline.h; path = Sources/Polyline/Polyline.h; sourceTree = "<group>"; };
+		99E4023520A82EAF89BE8E4F936C4452 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
+		9B849E5315D948642BE269E311B232F6 /* AnglePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnglePresenter.swift; path = Sources/SkeletonUI/Angle/AnglePresenter.swift; sourceTree = "<group>"; };
+		9C2270F7B6F123CF605A56BAC6B57F47 /* iOSDFULibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSDFULibrary.debug.xcconfig; sourceTree = "<group>"; };
+		9D015DEE246C8F476D51889DD12DF6D4 /* ManifestFirmwareInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManifestFirmwareInfo.swift; path = iOSDFULibrary/Classes/Utilities/DFUPackage/Manifest/ManifestFirmwareInfo.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E0238077FCD0393FDF5DF2347510018 /* SkeletonUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkeletonUI-dummy.m"; sourceTree = "<group>"; };
+		9E74D83B726D5E44BF74D9B6EE13C3E7 /* iOSDFULibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSDFULibrary.release.xcconfig; sourceTree = "<group>"; };
+		9E767C0BA8FB8B50D722509AC7D603C2 /* responseheader.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = responseheader.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/core/cpp/responseheader.cpp"; sourceTree = "<group>"; };
+		9FA23212E981AC333CED99D2FA9A71AD /* Pods-fall-app-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-fall-app-Info.plist"; sourceTree = "<group>"; };
+		A2A41EF74CB719DA223179A01BDEA57A /* DFUControlPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DFUControlPoint.swift; path = iOSDFULibrary/Classes/Implementation/LegacyDFU/Characteristics/DFUControlPoint.swift; sourceTree = "<group>"; };
+		A3B0B0CAC06F60D65EF51F2ED023A8FB /* DFUPeripheralDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DFUPeripheralDelegate.swift; path = iOSDFULibrary/Classes/Implementation/GenericDFU/DFUPeripheralDelegate.swift; sourceTree = "<group>"; };
+		A3C88970E897E5B831AD69EA70280CAC /* AnimationInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationInteractor.swift; path = Sources/SkeletonUI/Animation/AnimationInteractor.swift; sourceTree = "<group>"; };
+		A4DE54E8E3330864492D5659CABFEB61 /* FirmwareBuild.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FirmwareBuild.swift; path = MetaWear/DFU/FirmwareBuild.swift; sourceTree = "<group>"; };
+		A7845313D1A1189E5CE02D93A18907E6 /* SkeletonUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SkeletonUI.modulemap; sourceTree = "<group>"; };
+		A82F9B75563ACE6B32E9831B29FAC1AB /* ButtonlessDFU.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonlessDFU.swift; path = iOSDFULibrary/Classes/Implementation/SecureDFU/Characteristics/ButtonlessDFU.swift; sourceTree = "<group>"; };
+		A86624887BA1E91B6B8E2A3DC8989347 /* Archive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Archive.swift; path = Sources/ZIPFoundation/Archive.swift; sourceTree = "<group>"; };
+		A98CC05545CD4B9DBDC990ABBCD106D6 /* Toggle+OptionalType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Toggle+OptionalType.swift"; path = "Sources/SkeletonUI/Extensions/Toggle+OptionalType.swift"; sourceTree = "<group>"; };
+		AD46A2DA21B6820BECF72C0E0CDA7DBE /* DFUStreamBin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DFUStreamBin.swift; path = iOSDFULibrary/Classes/Utilities/Streams/DFUStreamBin.swift; sourceTree = "<group>"; };
+		AE7DA6AC47879605FADE24F6BF42E3BD /* Archive+Writing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+Writing.swift"; path = "Sources/ZIPFoundation/Archive+Writing.swift"; sourceTree = "<group>"; };
+		AF2916AE1CD4F8EB84F6E03821594704 /* MetaWearScanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MetaWearScanner.swift; path = MetaWear/Core/MetaWearScanner.swift; sourceTree = "<group>"; };
+		B2A474EA0E7241D673CF97F35D9D4A2F /* MblMwGattChar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MblMwGattChar.swift; path = MetaWear/Core/MblMwGattChar.swift; sourceTree = "<group>"; };
+		B2AD4FDCD3E10B2961A0497B7CF580B7 /* led.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = led.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/peripheral/cpp/led.cpp"; sourceTree = "<group>"; };
+		B386BE70DBDF75F6A5D4CEAB5934E232 /* SkeletonView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonView.swift; path = Sources/SkeletonUI/Skeleton/SkeletonView.swift; sourceTree = "<group>"; };
+		B55C4DAF633BA60D17B013F4344D18C4 /* Manifest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manifest.swift; path = iOSDFULibrary/Classes/Utilities/DFUPackage/Manifest/Manifest.swift; sourceTree = "<group>"; };
+		B599D7AA93E5F3A0AD20156BA9E5C76B /* accelerometer.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = accelerometer.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/sensor/cpp/accelerometer.cpp"; sourceTree = "<group>"; };
+		B6C98BA8D0DCCD7B33260FA2FF9CC3E7 /* Bolts-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Bolts-Swift-dummy.m"; sourceTree = "<group>"; };
+		B7133292E454859D7EA41DE4A3261BAF /* CBUUID.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CBUUID.swift; path = MetaWear/Core/CBUUID.swift; sourceTree = "<group>"; };
+		B73B25B5EFB6CB9135ACDCBBB72AC36B /* Archive+Reading.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+Reading.swift"; path = "Sources/ZIPFoundation/Archive+Reading.swift"; sourceTree = "<group>"; };
+		B769138491CD9B02A561DCEF22942435 /* MetaWear-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MetaWear-umbrella.h"; sourceTree = "<group>"; };
+		B834F82FE7B38F4704A628E87A3EF7A5 /* String+VersionCompare.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+VersionCompare.swift"; path = "MetaWear/Core/String+VersionCompare.swift"; sourceTree = "<group>"; };
+		B88CA0760148F991A5D687F55BE70287 /* SecureDFUServiceInitiator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecureDFUServiceInitiator.swift; path = iOSDFULibrary/Classes/Implementation/SecureDFU/DFU/SecureDFUServiceInitiator.swift; sourceTree = "<group>"; };
+		B8F0C2A7F9510CE6F681819320A56983 /* SecureDFUService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecureDFUService.swift; path = iOSDFULibrary/Classes/Implementation/SecureDFU/Services/SecureDFUService.swift; sourceTree = "<group>"; };
+		B9D2B7CC6104DB7580CC9B1A5811625A /* iOSDFULibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSDFULibrary-umbrella.h"; sourceTree = "<group>"; };
+		BB3E848D7F956FC04A9CDAF708AA2370 /* DFUPacket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DFUPacket.swift; path = iOSDFULibrary/Classes/Implementation/LegacyDFU/Characteristics/DFUPacket.swift; sourceTree = "<group>"; };
+		BC3196ADD6E58F49B1627A5A45B90C39 /* ibeacon.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = ibeacon.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/peripheral/cpp/ibeacon.cpp"; sourceTree = "<group>"; };
+		BD3451088FD4A290B93A4BDB12810E89 /* macro.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = macro.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/core/cpp/macro.cpp"; sourceTree = "<group>"; };
+		BD8C034DD23B2D599ADAFF10BEA4FC90 /* Pods-fall-app-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-fall-app-umbrella.h"; sourceTree = "<group>"; };
+		BE3CB86CDC81D05E6709DCDB07A49191 /* Pods-fall-app-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-fall-app-dummy.m"; sourceTree = "<group>"; };
+		C0748E568C5FFCAFB39DA6740CB1DC18 /* LegacyDFUServiceInitiator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LegacyDFUServiceInitiator.swift; path = iOSDFULibrary/Classes/Implementation/LegacyDFU/DFU/LegacyDFUServiceInitiator.swift; sourceTree = "<group>"; };
+		C0A3D65351C2224FE6D79EA724EDEE43 /* MetaWear+Async.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MetaWear+Async.swift"; path = "MetaWear/AsyncUtils/MetaWear+Async.swift"; sourceTree = "<group>"; };
+		C10387A225E10443AE302B6548FDC76A /* Pods-fall-app.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-fall-app.modulemap"; sourceTree = "<group>"; };
+		C1952E0FEC28C7C0C0906BDFDD601DCE /* DFUStarterPeripheral.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DFUStarterPeripheral.swift; path = iOSDFULibrary/Classes/Implementation/DFUSelector/DFUStarterPeripheral.swift; sourceTree = "<group>"; };
+		C23C3E37C8B97668ABBD17616C5197D5 /* Polyline-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Polyline-Info.plist"; sourceTree = "<group>"; };
+		C71BEE43195333D36B89357B94F68277 /* dfu_operations_details.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = dfu_operations_details.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/dfu/cpp/dfu_operations_details.cpp"; sourceTree = "<group>"; };
+		C8BFDDF54CF34F0E7B19A1B03A8D54EB /* SecureDFUPeripheral.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecureDFUPeripheral.swift; path = iOSDFULibrary/Classes/Implementation/SecureDFU/Peripheral/SecureDFUPeripheral.swift; sourceTree = "<group>"; };
+		C9016A848AB163F7629E97FE2F3A12AB /* MblMwEvent+Async.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MblMwEvent+Async.swift"; path = "MetaWear/AsyncUtils/MblMwEvent+Async.swift"; sourceTree = "<group>"; };
+		C906A5BB5F66BB2401B95906E9331FFA /* DFUServiceSelector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DFUServiceSelector.swift; path = iOSDFULibrary/Classes/Implementation/DFUSelector/DFUServiceSelector.swift; sourceTree = "<group>"; };
+		CA1B2E7F19F4F696696022174B4BEB68 /* SecureDFUControlPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecureDFUControlPoint.swift; path = iOSDFULibrary/Classes/Implementation/SecureDFU/Characteristics/SecureDFUControlPoint.swift; sourceTree = "<group>"; };
+		CA6BDA8615DA938221221B22E7DE8004 /* Entry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Entry.swift; path = Sources/ZIPFoundation/Entry.swift; sourceTree = "<group>"; };
+		CBC5A666C40FBFF42C2502D801596717 /* SecureDFUPeripheralDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecureDFUPeripheralDelegate.swift; path = iOSDFULibrary/Classes/Implementation/SecureDFU/Peripheral/SecureDFUPeripheralDelegate.swift; sourceTree = "<group>"; };
+		CC028C59221E0DC3829F3F8CDB174D3C /* ZIPFoundation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZIPFoundation-Info.plist"; sourceTree = "<group>"; };
+		CD26163CA7129361C82F995701127014 /* OptionalType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OptionalType.swift; path = Sources/SkeletonUI/Protocols/OptionalType.swift; sourceTree = "<group>"; };
+		CE2CE9D0BD784C1971257A12FA3E59E4 /* Bolts-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Bolts-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		CEE153EB6C89276F08EC25AABF684AE0 /* settings.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = settings.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/core/cpp/settings.cpp"; sourceTree = "<group>"; };
+		CFC17C9CE55FDF34219A4C5BD4398DB1 /* crc32.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = crc32.swift; path = iOSDFULibrary/Classes/Utilities/crc32.swift; sourceTree = "<group>"; };
+		CFE127085C5C0566F5BBD37C7D5D2B4C /* UnitPoint+Angle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UnitPoint+Angle.swift"; path = "Sources/SkeletonUI/Extensions/UnitPoint+Angle.swift"; sourceTree = "<group>"; };
+		D169B9D2B30BF030FAAC50E220C53B3E /* DFUServiceController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DFUServiceController.swift; path = iOSDFULibrary/Classes/Implementation/DFUServiceController.swift; sourceTree = "<group>"; };
+		D22C916C01D25DE1C6C49530D18D421B /* Data.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Data.swift; path = iOSDFULibrary/Classes/Utilities/Data.swift; sourceTree = "<group>"; };
+		D29DB6A2E0B85BA74B523069C50004B0 /* TaskCompletionSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskCompletionSource.swift; path = Sources/BoltsSwift/TaskCompletionSource.swift; sourceTree = "<group>"; };
+		D2B75AC556FE26C0FD7DC3BF70472B1C /* LoggerHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoggerHelper.swift; path = iOSDFULibrary/Classes/Utilities/Logging/LoggerHelper.swift; sourceTree = "<group>"; };
+		D54F99D12F2C247C968332138A6316ED /* LegacyDFUExecutor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LegacyDFUExecutor.swift; path = iOSDFULibrary/Classes/Implementation/LegacyDFU/DFU/LegacyDFUExecutor.swift; sourceTree = "<group>"; };
+		D5B8A4916989ADBC9B83C13C932675B3 /* Polyline-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Polyline-dummy.m"; sourceTree = "<group>"; };
+		D6BCCEC802D91332C99DEBA45051DFFC /* OpacityInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpacityInteractor.swift; path = Sources/SkeletonUI/Opacity/OpacityInteractor.swift; sourceTree = "<group>"; };
+		D727392D6CB59B940618C453F135CCF2 /* iOSDFULibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOSDFULibrary-dummy.m"; sourceTree = "<group>"; };
+		D7D2A0E88DE8F820DD218AA925BFE158 /* Data+Serialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Serialization.swift"; path = "Sources/ZIPFoundation/Data+Serialization.swift"; sourceTree = "<group>"; };
+		D91A9BB3500BF1C8E4B88AD174133035 /* MetaWear+LED.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MetaWear+LED.swift"; path = "MetaWear/AsyncUtils/MetaWear+LED.swift"; sourceTree = "<group>"; };
+		D952A011DA1541AF5286E17462E8FF20 /* ZIPFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZIPFoundation.debug.xcconfig; sourceTree = "<group>"; };
+		DA61D960DF7479C1BCDAAEEB9FBE99FA /* ZIPFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZIPFoundation.modulemap; sourceTree = "<group>"; };
+		DA681600790FEB149FEA3ED2BB3A0913 /* Bolts-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bolts-Swift-umbrella.h"; sourceTree = "<group>"; };
+		DD28267A60C80B4C298F27A09F1D9FD8 /* SoftdeviceBootloaderInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SoftdeviceBootloaderInfo.swift; path = iOSDFULibrary/Classes/Utilities/DFUPackage/Manifest/SoftdeviceBootloaderInfo.swift; sourceTree = "<group>"; };
+		DF066F86DA1200612DA883B5BA2375E9 /* Archive+MemoryFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+MemoryFile.swift"; path = "Sources/ZIPFoundation/Archive+MemoryFile.swift"; sourceTree = "<group>"; };
+		DF748B3060BFCD9F38765FA4C9366CDE /* SkeletonUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkeletonUI-umbrella.h"; sourceTree = "<group>"; };
+		E054E9662BDC3D02061DF98D68BE1255 /* SkeletonShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonShape.swift; path = Sources/SkeletonUI/Skeleton/SkeletonShape.swift; sourceTree = "<group>"; };
+		E0A31A014B96A1C4EB2ECC74E1637228 /* switch.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = switch.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/sensor/cpp/switch.cpp"; sourceTree = "<group>"; };
+		E23BD69434AC8BAAB586A5F50A52D9DC /* SkeletonUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkeletonUI.debug.xcconfig; sourceTree = "<group>"; };
+		E5219DE582915E75A487F051CBA44B19 /* SkeletonUI */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SkeletonUI; path = SkeletonUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E629CCC81DADCFD092F30D6309CA4ADD /* ambientlight_ltr329.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = ambientlight_ltr329.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/sensor/cpp/ambientlight_ltr329.cpp"; sourceTree = "<group>"; };
+		E85985CB7CC9609076480F2E2AAB8499 /* DFUExecutor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DFUExecutor.swift; path = iOSDFULibrary/Classes/Implementation/GenericDFU/DFUExecutor.swift; sourceTree = "<group>"; };
+		E8BD7B44E225FB66049F907CA59A60D3 /* SecureDFUPacket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecureDFUPacket.swift; path = iOSDFULibrary/Classes/Implementation/SecureDFU/Characteristics/SecureDFUPacket.swift; sourceTree = "<group>"; };
+		E90099F9784C88DF13AC0E80CEDA81CC /* DFUCharacteristic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DFUCharacteristic.swift; path = iOSDFULibrary/Classes/Implementation/GenericDFU/DFUCharacteristic.swift; sourceTree = "<group>"; };
+		EDE32BA4C8DEA6FF1B94BE361F2DA52E /* iOSDFULibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "iOSDFULibrary-Info.plist"; sourceTree = "<group>"; };
+		F0AF6606A5548D4D9B70814F3398D6B1 /* file_operations.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = file_operations.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/dfu/cpp/file_operations.cpp"; sourceTree = "<group>"; };
+		F35C8238E8552EF13183D13E2D0743FF /* SkeletonUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SkeletonUI-Info.plist"; sourceTree = "<group>"; };
+		F454ABDF4AAE25036B644FC7AFDBAAAB /* anonymous_datasignal.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = anonymous_datasignal.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/core/cpp/anonymous_datasignal.cpp"; sourceTree = "<group>"; };
+		F84A2663CD57AEAB247709251A2127F8 /* datainterpreter.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = datainterpreter.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/impl/cpp/datainterpreter.cpp"; sourceTree = "<group>"; };
+		F8BAB5F609E0254A475B21A7C5D03B66 /* sensor_fusion.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = sensor_fusion.cpp; path = "MetaWear/MetaWear-SDK-Cpp/src/metawear/sensor/cpp/sensor_fusion.cpp"; sourceTree = "<group>"; };
+		F8BDBAFB644A7A25BAD1C0843CAF3A28 /* Pods-fall-app */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-fall-app"; path = Pods_fall_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB3616484EA9386BF90A03361F0CB67 /* LegacyDFUPeripheralDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LegacyDFUPeripheralDelegate.swift; path = iOSDFULibrary/Classes/Implementation/LegacyDFU/Peripherals/LegacyDFUPeripheralDelegate.swift; sourceTree = "<group>"; };
+		FEC5428C83868CB37EF1792A019B9AF7 /* MetaWear.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MetaWear.debug.xcconfig; sourceTree = "<group>"; };
+		FF6C2BE9F75C07113EF7495747877B94 /* Executor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Executor.swift; path = Sources/BoltsSwift/Executor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		027D1E80DE0AD8115B0EF3B90C9DAB38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBDF31B34E37575116AEDEBF2BB9B701 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C3943B77AF2E5E28479BB1527E6D982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C16EBA19AEC3CBC7B14E2489D45507C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9909309FB06ECD629B02E4AA214A5CB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438EA614DCC67B0614ED02EC24373133 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3251227D7CF3F9E757F09BFB7441AF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FBD16EABE1827413D6A77797D5BD001 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAF6790B98B73381A555E29F7358D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73DA1A08E91355019FBDD29046833BF0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9262AA6E22AACC11F4AAEA7D729DC49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E558908F95CFFFAE90C9CAC9A54F9381 /* CoreBluetooth.framework in Frameworks */,
+				971EF4EEDE48ECE566E5F4729E370A7E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA54D89E473C8338D042702AFFD1E2CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF947A08AB8D660D72A7F52A8C194E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		126E4AD2BF2F71A3BE559828FC49C67B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF9AA298AD75750539569798B8C93767 /* Pods-fall-app */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		144E2E22E64F16C21E1897BD284EBC90 /* iOSDFULibrary */ = {
+			isa = PBXGroup;
+			children = (
+				A82F9B75563ACE6B32E9831B29FAC1AB /* ButtonlessDFU.swift */,
+				CFC17C9CE55FDF34219A4C5BD4398DB1 /* crc32.swift */,
+				D22C916C01D25DE1C6C49530D18D421B /* Data.swift */,
+				E90099F9784C88DF13AC0E80CEDA81CC /* DFUCharacteristic.swift */,
+				6821B1BAB0397619D9833397F08CE7C3 /* DFUController.swift */,
+				A2A41EF74CB719DA223179A01BDEA57A /* DFUControlPoint.swift */,
+				E85985CB7CC9609076480F2E2AAB8499 /* DFUExecutor.swift */,
+				84059A5F83A85D676C68DF4BF9336307 /* DFUFirmware.swift */,
+				BB3E848D7F956FC04A9CDAF708AA2370 /* DFUPacket.swift */,
+				3A8E63C89CCA3245C0449047DFE63E13 /* DFUPeripheral.swift */,
+				A3B0B0CAC06F60D65EF51F2ED023A8FB /* DFUPeripheralDelegate.swift */,
+				43C81C18A833244910BF3C9C8D55C782 /* DFUPeripheralSelector.swift */,
+				3575B6D74C9118C0A22B82BA76A102A6 /* DFUPeripheralSelectorDelegate.swift */,
+				6BEFA9AEC2667A2378F5E71F236FA106 /* DFUService.swift */,
+				D169B9D2B30BF030FAAC50E220C53B3E /* DFUServiceController.swift */,
+				1EE80F79559A9D688FD71197277D346B /* DFUServiceDelegate.swift */,
+				2EFED6A7970D20F3DBA5D514ABCDF285 /* DFUServiceInitiator.swift */,
+				C906A5BB5F66BB2401B95906E9331FFA /* DFUServiceSelector.swift */,
+				C1952E0FEC28C7C0C0906BDFDD601DCE /* DFUStarterPeripheral.swift */,
+				7741A5D99E46C32B4043E863CE63C032 /* DFUStream.swift */,
+				AD46A2DA21B6820BECF72C0E0CDA7DBE /* DFUStreamBin.swift */,
+				053BB1B6163AA88FD463A4A4DC7F77D2 /* DFUStreamHex.swift */,
+				639563B6101101BA6B27B33F1216063E /* DFUStreamZip.swift */,
+				19D4BDB7FE35C19C0117E5011F505B11 /* DFUUuidHelper.swift */,
+				0BA62BF41AF61DB2BD4B0498FA48B1DF /* DFUVersion.swift */,
+				15387570DCD63060E80158E73F9B1636 /* Double.swift */,
+				165FDCA92A8717A3D446A54A5B97D8AA /* IntelHex2BinConverter.swift */,
+				D54F99D12F2C247C968332138A6316ED /* LegacyDFUExecutor.swift */,
+				0B7DAAE7289E310EBBE64B6286F7A4C4 /* LegacyDFUPeripheral.swift */,
+				FDB3616484EA9386BF90A03361F0CB67 /* LegacyDFUPeripheralDelegate.swift */,
+				54436913FAD043CE720F9EA477A4E03B /* LegacyDFUService.swift */,
+				C0748E568C5FFCAFB39DA6740CB1DC18 /* LegacyDFUServiceInitiator.swift */,
+				73E210B9098FFCBDE20AB2FD47635AA8 /* LoggerDelegate.swift */,
+				D2B75AC556FE26C0FD7DC3BF70472B1C /* LoggerHelper.swift */,
+				B55C4DAF633BA60D17B013F4344D18C4 /* Manifest.swift */,
+				9D015DEE246C8F476D51889DD12DF6D4 /* ManifestFirmwareInfo.swift */,
+				CA1B2E7F19F4F696696022174B4BEB68 /* SecureDFUControlPoint.swift */,
+				7ECDD2E019EC20C69AB0614C2E354720 /* SecureDFUExecutor.swift */,
+				E8BD7B44E225FB66049F907CA59A60D3 /* SecureDFUPacket.swift */,
+				C8BFDDF54CF34F0E7B19A1B03A8D54EB /* SecureDFUPeripheral.swift */,
+				CBC5A666C40FBFF42C2502D801596717 /* SecureDFUPeripheralDelegate.swift */,
+				B8F0C2A7F9510CE6F681819320A56983 /* SecureDFUService.swift */,
+				B88CA0760148F991A5D687F55BE70287 /* SecureDFUServiceInitiator.swift */,
+				DD28267A60C80B4C298F27A09F1D9FD8 /* SoftdeviceBootloaderInfo.swift */,
+				336A72034E9A4328179ED6ED393F4AF8 /* ZipArchive.swift */,
+				D5DCCAB64496570ECA97454C2A0A8C86 /* Support Files */,
+			);
+			name = iOSDFULibrary;
+			path = iOSDFULibrary;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAFEFC354BE53171BDC70E0B4B6F6BB8 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19AE2A7A8A57E5B20761FA2C20B240E0 /* Polyline */ = {
+			isa = PBXGroup;
+			children = (
+				5C8E87928BD663CD05DE93E5DCBFA3C4 /* CoreLocation.swift */,
+				9926828917B1ECE69ECD62D73DF10348 /* Polyline.h */,
+				8E25D26EB0E379C4C8942DBD7E65786E /* Polyline.swift */,
+				9C703398FA5E01BCD2C0250A952B4567 /* Support Files */,
+			);
+			name = Polyline;
+			path = Polyline;
+			sourceTree = "<group>";
+		};
+		1E3CE7EE1DAA4BA47627F6DD72B74FE1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A976702438F70884A5BFCC5DEA2A573 /* MetaWear.modulemap */,
+				26F1F44F9C565A3F54B319922BDF99A9 /* MetaWear-dummy.m */,
+				786376453A61EF96708F49064E377595 /* MetaWear-Info.plist */,
+				807D2FF75EF9079FA2263E688E36B33B /* MetaWear-prefix.pch */,
+				B769138491CD9B02A561DCEF22942435 /* MetaWear-umbrella.h */,
+				FEC5428C83868CB37EF1792A019B9AF7 /* MetaWear.debug.xcconfig */,
+				01ACD817495FA337BD16F246446DF246 /* MetaWear.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MetaWear";
+			sourceTree = "<group>";
+		};
+		1FD4AB503FF996928BDA9A3BB02234BE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				06C1870A4C63A8C9A16A3CB92EDF86E8 /* Bolts-Swift.modulemap */,
+				B6C98BA8D0DCCD7B33260FA2FF9CC3E7 /* Bolts-Swift-dummy.m */,
+				61744A820FFA67496F4D13DB1904BD54 /* Bolts-Swift-Info.plist */,
+				7D900859604F35FD5535CD43E47B1BB4 /* Bolts-Swift-prefix.pch */,
+				DA681600790FEB149FEA3ED2BB3A0913 /* Bolts-Swift-umbrella.h */,
+				CE2CE9D0BD784C1971257A12FA3E59E4 /* Bolts-Swift.debug.xcconfig */,
+				4DBE812C1176C78F4A72C794384E7615 /* Bolts-Swift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Bolts-Swift";
+			sourceTree = "<group>";
+		};
+		25EFCFB83CBF5398AC9648CB209374E9 /* Bolts-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				399DCD7E8956055E3D990F0AB3D41937 /* Errors.swift */,
+				FF6C2BE9F75C07113EF7495747877B94 /* Executor.swift */,
+				237EE9708B20513C7849C9F99DE3998C /* Task.swift */,
+				7D70476A5D8376F39F3895BD4852C69B /* Task+ContinueWith.swift */,
+				21430A6666206FB93511C4D20ADA3728 /* Task+Delay.swift */,
+				7EC185E2C85CC09E91AA0B31B61E27B7 /* Task+WhenAll.swift */,
+				83FDCD79A1DD949F4840E6DA1BE90A22 /* Task+WhenAny.swift */,
+				D29DB6A2E0B85BA74B523069C50004B0 /* TaskCompletionSource.swift */,
+				1FD4AB503FF996928BDA9A3BB02234BE /* Support Files */,
+			);
+			name = "Bolts-Swift";
+			path = "Bolts-Swift";
+			sourceTree = "<group>";
+		};
+		2986ACDD8C930E65AC670E26875B0E13 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7845313D1A1189E5CE02D93A18907E6 /* SkeletonUI.modulemap */,
+				9E0238077FCD0393FDF5DF2347510018 /* SkeletonUI-dummy.m */,
+				F35C8238E8552EF13183D13E2D0743FF /* SkeletonUI-Info.plist */,
+				55752BD45ACB4C7C1B1C61F1CD29E400 /* SkeletonUI-prefix.pch */,
+				DF748B3060BFCD9F38765FA4C9366CDE /* SkeletonUI-umbrella.h */,
+				E23BD69434AC8BAAB586A5F50A52D9DC /* SkeletonUI.debug.xcconfig */,
+				6DF05E43BB6C2B8C1663E21C4EF69375 /* SkeletonUI.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SkeletonUI";
+			sourceTree = "<group>";
+		};
+		426457DDC7962E9ED49314E79061D7D5 /* DFU */ = {
+			isa = PBXGroup;
+			children = (
+				A4DE54E8E3330864492D5659CABFEB61 /* FirmwareBuild.swift */,
+				3A301571DCAF8728E9E970E7F06330A1 /* FirmwareServer.swift */,
+				6EFF6E5A7ACC549C6D91E390A0C31766 /* MetaWear+Firmware.swift */,
+			);
+			name = DFU;
+			sourceTree = "<group>";
+		};
+		42C4437DD3C13F7FE42D82994FFF811F /* ZIPFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				A86624887BA1E91B6B8E2A3DC8989347 /* Archive.swift */,
+				DF066F86DA1200612DA883B5BA2375E9 /* Archive+MemoryFile.swift */,
+				B73B25B5EFB6CB9135ACDCBBB72AC36B /* Archive+Reading.swift */,
+				AE7DA6AC47879605FADE24F6BF42E3BD /* Archive+Writing.swift */,
+				8045E8B187D1863F4B4877DADD1B06DF /* Data+Compression.swift */,
+				D7D2A0E88DE8F820DD218AA925BFE158 /* Data+Serialization.swift */,
+				CA6BDA8615DA938221221B22E7DE8004 /* Entry.swift */,
+				7B504C9507F4F7803E49C42B9DA14C0E /* FileManager+ZIP.swift */,
+				9E8D1B86A19EF0488CFB76945A8EC239 /* Support Files */,
+			);
+			name = ZIPFoundation;
+			path = ZIPFoundation;
+			sourceTree = "<group>";
+		};
+		52DF97CCE0610BEB2295E6F8D33C1F36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1579A0986D70C32D7BED1A855C31EF4B /* Bolts-Swift */,
+				21B1375088A0310C7AE2BE4C8188D12F /* iOSDFULibrary */,
+				7DF415FCE4EC0E6B83191E69BD55A61F /* MetaWear */,
+				F8BDBAFB644A7A25BAD1C0843CAF3A28 /* Pods-fall-app */,
+				1EE3A4D593AA5AC3FDAC17806EB29195 /* Polyline */,
+				E5219DE582915E75A487F051CBA44B19 /* SkeletonUI */,
+				48A4A6EDC08C8AC933D0DCD507E9D173 /* ZIPFoundation */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66A56B9C7F205492F9EA365EA43C1F77 /* AsyncUtils */ = {
+			isa = PBXGroup;
+			children = (
+				360D82BCCB773EB878D874872FFCA7ED /* MblMwDataSignal+Async.swift */,
+				C9016A848AB163F7629E97FE2F3A12AB /* MblMwEvent+Async.swift */,
+				C0A3D65351C2224FE6D79EA724EDEE43 /* MetaWear+Async.swift */,
+				D91A9BB3500BF1C8E4B88AD174133035 /* MetaWear+LED.swift */,
+			);
+			name = AsyncUtils;
+			sourceTree = "<group>";
+		};
+		6F2B7A117A9EE32AD11A6563C58A1F9A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				4797745CF2FAE871D06A31DB9C0849DA /* ScannerModel.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		7D550499D4EDB34D55E7D4FE2D0CE4CB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B599D7AA93E5F3A0AD20156BA9E5C76B /* accelerometer.cpp */,
+				94A0A45D4F4AB39D5B6B973C3BE90183 /* accelerometer_bosch.cpp */,
+				534682B8CAB81FBCF799E513832BBACE /* accelerometer_mma8452q.cpp */,
+				E629CCC81DADCFD092F30D6309CA4ADD /* ambientlight_ltr329.cpp */,
+				F454ABDF4AAE25036B644FC7AFDBAAAB /* anonymous_datasignal.cpp */,
+				87AA2512D5DF0BCB81D2F7B50A4D5772 /* async_creator.cpp */,
+				0EE46A1972C91915C4C00D5C0E935DCC /* barometer_bosch.cpp */,
+				10A98CE51963E87E01A369CF544054A7 /* Bridging.swift */,
+				8DBE701FC3CB2DD6E4C087B171FCD08F /* cbindings.swift */,
+				B7133292E454859D7EA41DE4A3261BAF /* CBUUID.swift */,
+				0276FD11F1DE3537016F257B9E37DF6A /* colordetector_tcs34725.cpp */,
+				36730E04DFE3B7696AD1FE5213AB22F6 /* conductance.cpp */,
+				F84A2663CD57AEAB247709251A2127F8 /* datainterpreter.cpp */,
+				559338DDA63AD90C01A19E1C5D1F2BFC /* dataprocessor.cpp */,
+				78FB44FEA11A21C955AD8F34BD2373A8 /* dataprocessor_config.cpp */,
+				2F0A6AAA26DA76F90DED362F05C90AD1 /* datasignal.cpp */,
+				3CE4CEBC1AA7207DB01BA227DFFAB4FA /* debug.cpp */,
+				1CBEF9023A13D397CD0C1B90987D0402 /* DeviceInformation.swift */,
+				515EF13B92EAF1B127439021053A0D8C /* dfu_operations.cpp */,
+				C71BEE43195333D36B89357B94F68277 /* dfu_operations_details.cpp */,
+				22B9FF324036120025486114463E21B9 /* dfu_utility.cpp */,
+				453D82DF1E625327F040197D1B4706BF /* event.cpp */,
+				F0AF6606A5548D4D9B70814F3398D6B1 /* file_operations.cpp */,
+				667CC4F735D7467B2BD908AA2C950957 /* gpio.cpp */,
+				93196815FDD5B278D011791BEB2EDE7C /* gyro_bosch.cpp */,
+				02A77413B0F835C466FDE0C5919414E9 /* haptic.cpp */,
+				1B0E83FAF95A8C394DD492C54A8F7BEF /* humidity_bme280.cpp */,
+				BC3196ADD6E58F49B1627A5A45B90C39 /* ibeacon.cpp */,
+				B2AD4FDCD3E10B2961A0497B7CF580B7 /* led.cpp */,
+				26AEFD98AACE5F86693A8912394DA2C9 /* LogDelegate.swift */,
+				862152AD7F26D96FF2BB4E78F2D887DC /* logging.cpp */,
+				BD3451088FD4A290B93A4BDB12810E89 /* macro.cpp */,
+				03DBA500906253AF03FB94346278E6D6 /* magnetometer_bmm150.cpp */,
+				B2A474EA0E7241D673CF97F35D9D4A2F /* MblMwGattChar.swift */,
+				55F04DA2CBD2BCF8D7651AE992A17D51 /* memory.cpp */,
+				94955F4B25D1E54171F015A8024C7D13 /* MetaWear.swift */,
+				612EF7F955E4454D8880C164317C001B /* metawearboard.cpp */,
+				0B4EB6FC7BFA0B1B1460A2D6D5B53894 /* MetaWearData.swift */,
+				AF2916AE1CD4F8EB84F6E03821594704 /* MetaWearScanner.swift */,
+				814FD4C36BF30C4B692967522D2D38DE /* miniz.cpp */,
+				6D2CC22E9D7C27CA7520647C64E0AD80 /* moduleinfo.cpp */,
+				695CD31FC4AC553C33038FF8A1F9B95F /* multichanneltemperature.cpp */,
+				6EE321D4F6A776877228595FF4448487 /* neopixel.cpp */,
+				376CBC97EEA406BA26508178836AD1E8 /* proximity_tsl2671.cpp */,
+				9E767C0BA8FB8B50D722509AC7D603C2 /* responseheader.cpp */,
+				F8BAB5F609E0254A475B21A7C5D03B66 /* sensor_fusion.cpp */,
+				8733CC0A6F1531CF2C03B780389578DB /* serialpassthrough.cpp */,
+				CEE153EB6C89276F08EC25AABF684AE0 /* settings.cpp */,
+				B834F82FE7B38F4704A628E87A3EF7A5 /* String+VersionCompare.swift */,
+				E0A31A014B96A1C4EB2ECC74E1637228 /* switch.cpp */,
+				3940EAD9591E300AE6138655E136B4A6 /* task.cpp */,
+				2F23D7E2817EE83C1453B2C2857F3878 /* threadpool.cpp */,
+				94471C7C24907814E2BEEAFBFDAD1F1B /* timer.cpp */,
+				32F628EF37CE0E10D63997570C74CB60 /* utils.cpp */,
+				75C188E37AA8FB1478CB7C430F8F914D /* version.cpp */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		90C68D790AFE2B8E4E60189C01365255 /* MetaWear */ = {
+			isa = PBXGroup;
+			children = (
+				66A56B9C7F205492F9EA365EA43C1F77 /* AsyncUtils */,
+				7D550499D4EDB34D55E7D4FE2D0CE4CB /* Core */,
+				426457DDC7962E9ED49314E79061D7D5 /* DFU */,
+				1E3CE7EE1DAA4BA47627F6DD72B74FE1 /* Support Files */,
+				6F2B7A117A9EE32AD11A6563C58A1F9A /* UI */,
+			);
+			name = MetaWear;
+			path = MetaWear;
+			sourceTree = "<group>";
+		};
+		9C703398FA5E01BCD2C0250A952B4567 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				37EE7FDDA19DFC43592CB10088C7060F /* Polyline.modulemap */,
+				D5B8A4916989ADBC9B83C13C932675B3 /* Polyline-dummy.m */,
+				C23C3E37C8B97668ABBD17616C5197D5 /* Polyline-Info.plist */,
+				30B7AFC5A190108A0AA45235E2DFD713 /* Polyline-prefix.pch */,
+				79F6E6DF0C45A8D666ADFE8972D79716 /* Polyline-umbrella.h */,
+				32B9F6A5AB447095918B4A7BC93E2242 /* Polyline.debug.xcconfig */,
+				8B15EDB763217079E241863761C771F5 /* Polyline.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Polyline";
+			sourceTree = "<group>";
+		};
+		9E8D1B86A19EF0488CFB76945A8EC239 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA61D960DF7479C1BCDAAEEB9FBE99FA /* ZIPFoundation.modulemap */,
+				3384BF26211A0457C79760F641868B8E /* ZIPFoundation-dummy.m */,
+				CC028C59221E0DC3829F3F8CDB174D3C /* ZIPFoundation-Info.plist */,
+				96157650E810B01D43FC5CEBC02F919C /* ZIPFoundation-prefix.pch */,
+				3C502F4F6978C994D08ED410187A313E /* ZIPFoundation-umbrella.h */,
+				D952A011DA1541AF5286E17462E8FF20 /* ZIPFoundation.debug.xcconfig */,
+				308C9EA754DBA0034722F37A2F5EBD22 /* ZIPFoundation.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZIPFoundation";
+			sourceTree = "<group>";
+		};
+		B36C30A78C9FEF957E77E33B27F4EEAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25EFCFB83CBF5398AC9648CB209374E9 /* Bolts-Swift */,
+				144E2E22E64F16C21E1897BD284EBC90 /* iOSDFULibrary */,
+				90C68D790AFE2B8E4E60189C01365255 /* MetaWear */,
+				19AE2A7A8A57E5B20761FA2C20B240E0 /* Polyline */,
+				E49A003CF5EBC11D0C3553034686577D /* SkeletonUI */,
+				42C4437DD3C13F7FE42D82994FFF811F /* ZIPFoundation */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BAFEFC354BE53171BDC70E0B4B6F6BB8 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				99E4023520A82EAF89BE8E4F936C4452 /* CoreBluetooth.framework */,
+				7566FCDAC605EB3D2581B3964A2F6ACB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				B36C30A78C9FEF957E77E33B27F4EEAD /* Pods */,
+				52DF97CCE0610BEB2295E6F8D33C1F36 /* Products */,
+				126E4AD2BF2F71A3BE559828FC49C67B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D5DCCAB64496570ECA97454C2A0A8C86 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				428181B51BD8F00F29545E8BF077ACDE /* iOSDFULibrary.modulemap */,
+				D727392D6CB59B940618C453F135CCF2 /* iOSDFULibrary-dummy.m */,
+				EDE32BA4C8DEA6FF1B94BE361F2DA52E /* iOSDFULibrary-Info.plist */,
+				6177EA1C5A1082490294F10D4A59B9C7 /* iOSDFULibrary-prefix.pch */,
+				B9D2B7CC6104DB7580CC9B1A5811625A /* iOSDFULibrary-umbrella.h */,
+				9C2270F7B6F123CF605A56BAC6B57F47 /* iOSDFULibrary.debug.xcconfig */,
+				9E74D83B726D5E44BF74D9B6EE13C3E7 /* iOSDFULibrary.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/iOSDFULibrary";
+			sourceTree = "<group>";
+		};
+		E49A003CF5EBC11D0C3553034686577D /* SkeletonUI */ = {
+			isa = PBXGroup;
+			children = (
+				8318EEE232EB43F5B4BE156A759C5861 /* AngleInteractor.swift */,
+				9B849E5315D948642BE269E311B232F6 /* AnglePresenter.swift */,
+				A3C88970E897E5B831AD69EA70280CAC /* AnimationInteractor.swift */,
+				0FFA0314C8AA533E362FDE921BDA6E78 /* AppearanceInteractor.swift */,
+				4CAA8DFFC8993C8CE2D45A3DB46129FC /* AppearancePresenter.swift */,
+				4C33F0E64714BB4213200034BD87C9B0 /* ClosedRange+Normalize.swift */,
+				653370B57E785D1227101C02F1EAA6A7 /* Image+OptionalType.swift */,
+				62C79C91188878469E133E52AF8F3F67 /* ModifiedContent+SkeletonModifier.swift */,
+				60996760D0D71A5E500E3D09753E3D49 /* MultilineInteractor.swift */,
+				6E2362AA9E5941CDACFF07A6877E91EC /* MultilinePresenter.swift */,
+				D6BCCEC802D91332C99DEBA45051DFFC /* OpacityInteractor.swift */,
+				51253DD3BF186753191029BCCAC12785 /* OpacityPresenter.swift */,
+				8683DED748E1605BC0854A8FB8E2F24F /* Optional+OptionalType.swift */,
+				CD26163CA7129361C82F995701127014 /* OptionalType.swift */,
+				33BB021B26F1E2177CD1ECA10766CB49 /* PositionInteractor.swift */,
+				266FCE420F106DB986ABF91E1BE0DA8D /* PositionPresenter.swift */,
+				83A47AEB80DD0220C8DD5C75E40F1838 /* RadiusInteractor.swift */,
+				5830117FAEEB3297DE0BFE6DB820F3ED /* RadiusPresenter.swift */,
+				6EC06843AB0FF604A636F78C96A6B515 /* SecureField+OptionalType.swift */,
+				10DCAF968AF128E902C5B6FEF109C19D /* ShapeInteractor.swift */,
+				3ECDD83E8A75522DA81E3D3B816BBB40 /* ShapePresenter.swift */,
+				02AFED6574D681FE7BB1C16AD1E9D5A7 /* SkeletonForEach.swift */,
+				056085FF176B2BF27EFBEC28ED20F689 /* SkeletonInteractor.swift */,
+				33DF7662AAC9C7B72DBDC2E24DB1D753 /* SkeletonList.swift */,
+				8A891FF672BB59946BE8C6E0DA14285E /* SkeletonModifier.swift */,
+				5E3A62247D298310C4F3DA11523D6A68 /* SkeletonPresenter.swift */,
+				E054E9662BDC3D02061DF98D68BE1255 /* SkeletonShape.swift */,
+				B386BE70DBDF75F6A5D4CEAB5934E232 /* SkeletonView.swift */,
+				0FEBD80A529B1C07F10FEFAE339A2621 /* Text+OptionalType.swift */,
+				146BA2E6A364033EEB495FD6DE3EADB1 /* TextField+OptionalType.swift */,
+				A98CC05545CD4B9DBDC990ABBCD106D6 /* Toggle+OptionalType.swift */,
+				CFE127085C5C0566F5BBD37C7D5D2B4C /* UnitPoint+Angle.swift */,
+				8CD3E11A9363ABA47B3D35B84D86C93D /* View+SkeletonModifier.swift */,
+				2986ACDD8C930E65AC670E26875B0E13 /* Support Files */,
+			);
+			name = SkeletonUI;
+			path = SkeletonUI;
+			sourceTree = "<group>";
+		};
+		FF9AA298AD75750539569798B8C93767 /* Pods-fall-app */ = {
+			isa = PBXGroup;
+			children = (
+				C10387A225E10443AE302B6548FDC76A /* Pods-fall-app.modulemap */,
+				0BA5D7FFFBF0A4663E3C50169241EC76 /* Pods-fall-app-acknowledgements.markdown */,
+				09EA31FB7FEFA19A5B539B903E8E602B /* Pods-fall-app-acknowledgements.plist */,
+				BE3CB86CDC81D05E6709DCDB07A49191 /* Pods-fall-app-dummy.m */,
+				2E5192D8DB7E6203FBE622C517F3BF96 /* Pods-fall-app-frameworks.sh */,
+				9FA23212E981AC333CED99D2FA9A71AD /* Pods-fall-app-Info.plist */,
+				BD8C034DD23B2D599ADAFF10BEA4FC90 /* Pods-fall-app-umbrella.h */,
+				793993227B3B9304D59906E464A24C78 /* Pods-fall-app.debug.xcconfig */,
+				52F5869A78AFEA7FBB6521E3A45403EA /* Pods-fall-app.release.xcconfig */,
+			);
+			name = "Pods-fall-app";
+			path = "Target Support Files/Pods-fall-app";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D6C236C79479AEDCDAC7E0CA87711C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6164BA752B324942E831904A9175F8BE /* MetaWear-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17A7C7827784A132B04D2400F2DEE408 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A90CA3B40E52351469AFF46589A0FD /* Polyline.h in Headers */,
+				39B06EA6909DFFC0C0CB507E30028B15 /* Polyline-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E76EAE5399D6DF7EDB2E52A890D2B49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D96A53F554BE7D2F3DBC974A3C62D3 /* iOSDFULibrary-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DB25054525118365072816450FF049 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57CDE25343868F348335A57938F2BD1 /* ZIPFoundation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72C07810A5CBA2C8C4F74E325804CD5C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DD5463F075AA2300AA953722562725 /* Bolts-Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C43A3FABB54D9DE268DE4D0E4064CC3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC273A05BEF979DE5EBDCBBC6AFD912 /* Pods-fall-app-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D6B0FE24B3ADA0BE2F87981BEC215F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9579AD5BDFA0FFF41C8B179CF9012C2A /* SkeletonUI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2019A3E3844591F019A985A35E5C2D39 /* Polyline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE43317891337A885DC38725DE42D0F0 /* Build configuration list for PBXNativeTarget "Polyline" */;
+			buildPhases = (
+				17A7C7827784A132B04D2400F2DEE408 /* Headers */,
+				2EADE4397B057F312519993D0A053C44 /* Sources */,
+				9909309FB06ECD629B02E4AA214A5CB4 /* Frameworks */,
+				612B15719FAB643F8DA31EE53689AB47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Polyline;
+			productName = Polyline;
+			productReference = 1EE3A4D593AA5AC3FDAC17806EB29195 /* Polyline */;
+			productType = "com.apple.product-type.framework";
+		};
+		3E8BB3BAFA6478784A9A7DD76C8A1F3C /* MetaWear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 945DB584B50BDEB5F2E05F8418B63352 /* Build configuration list for PBXNativeTarget "MetaWear" */;
+			buildPhases = (
+				0D6C236C79479AEDCDAC7E0CA87711C5 /* Headers */,
+				817B7F0EA63969E16721C26747266390 /* Sources */,
+				E9262AA6E22AACC11F4AAEA7D729DC49 /* Frameworks */,
+				35EB662202AB1D43CA302A8DB359B849 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E495D524618FE88C280CB085F185B2B /* PBXTargetDependency */,
+				689AF8C173B06FFB04C72A3C2EFE0FA1 /* PBXTargetDependency */,
+			);
+			name = MetaWear;
+			productName = MetaWear;
+			productReference = 7DF415FCE4EC0E6B83191E69BD55A61F /* MetaWear */;
+			productType = "com.apple.product-type.framework";
+		};
+		6510766A9670BFA3B251E2A62446FC5D /* SkeletonUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C4DED0B5CC7551BF7CEF30FB8761127 /* Build configuration list for PBXNativeTarget "SkeletonUI" */;
+			buildPhases = (
+				D6D6B0FE24B3ADA0BE2F87981BEC215F /* Headers */,
+				9CC19A72A3EF846C98D6EC75D1EB38C3 /* Sources */,
+				EA54D89E473C8338D042702AFFD1E2CF /* Frameworks */,
+				08C0122CB902699C913C4F3D15EF1A67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkeletonUI;
+			productName = SkeletonUI;
+			productReference = E5219DE582915E75A487F051CBA44B19 /* SkeletonUI */;
+			productType = "com.apple.product-type.framework";
+		};
+		9506C7FCDAE6E6967A99655F452EEE93 /* iOSDFULibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2006E63B28497F9806064DDF9A20852D /* Build configuration list for PBXNativeTarget "iOSDFULibrary" */;
+			buildPhases = (
+				2E76EAE5399D6DF7EDB2E52A890D2B49 /* Headers */,
+				08EBD21C498941D7C99629AB90C76356 /* Sources */,
+				B3251227D7CF3F9E757F09BFB7441AF1 /* Frameworks */,
+				545DC4155E194C80A079A665F76CD471 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E36B417C2347D3C2D7C4E67FCE2BBF2 /* PBXTargetDependency */,
+			);
+			name = iOSDFULibrary;
+			productName = iOSDFULibrary;
+			productReference = 21B1375088A0310C7AE2BE4C8188D12F /* iOSDFULibrary */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA15C8469D67684160CC2A7098EB841C /* ZIPFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 699D4E48D0D78B6493007DA514EE0F1F /* Build configuration list for PBXNativeTarget "ZIPFoundation" */;
+			buildPhases = (
+				39DB25054525118365072816450FF049 /* Headers */,
+				ECFF190937BDE0DF781D01B52DF6646E /* Sources */,
+				DEAF6790B98B73381A555E29F7358D97 /* Frameworks */,
+				0D121C128E5D93984A39A5CAA490FB9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZIPFoundation;
+			productName = ZIPFoundation;
+			productReference = 48A4A6EDC08C8AC933D0DCD507E9D173 /* ZIPFoundation */;
+			productType = "com.apple.product-type.framework";
+		};
+		B3EDE354D5584C9856EFF26CD6C6DEAE /* Pods-fall-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3EB5B13A4E6B973791B3A6F51F17ED1 /* Build configuration list for PBXNativeTarget "Pods-fall-app" */;
+			buildPhases = (
+				7C43A3FABB54D9DE268DE4D0E4064CC3 /* Headers */,
+				AABABE0EEAA34BA667CE2DDA7FEE3FCA /* Sources */,
+				0C3943B77AF2E5E28479BB1527E6D982 /* Frameworks */,
+				4ECF7162D6F9A0751DCCCBF7854C481F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E6B22BDE9510E0B5FDF9A646B71627C /* PBXTargetDependency */,
+				4EE5A21B6256C1ECB1C7FECD501317A1 /* PBXTargetDependency */,
+				9B481851A28F640D8AB6B3A7285FF64D /* PBXTargetDependency */,
+				58EAE15286F0E4F433DEE95EA4F0F58C /* PBXTargetDependency */,
+				16934F2028752971332B7A53D54157A2 /* PBXTargetDependency */,
+				A7BA4BA398074DDA886C898354892C4B /* PBXTargetDependency */,
+			);
+			name = "Pods-fall-app";
+			productName = Pods_fall_app;
+			productReference = F8BDBAFB644A7A25BAD1C0843CAF3A28 /* Pods-fall-app */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA1CEDB360B77644C934EAD86B37FCB5 /* Bolts-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C48222D97D3730ADFA867FB3A54056D0 /* Build configuration list for PBXNativeTarget "Bolts-Swift" */;
+			buildPhases = (
+				72C07810A5CBA2C8C4F74E325804CD5C /* Headers */,
+				2E5174D8ABD0F86071CCA0A8D8389465 /* Sources */,
+				027D1E80DE0AD8115B0EF3B90C9DAB38 /* Frameworks */,
+				41A719F7AA99C290E0862BC65E63E79C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bolts-Swift";
+			productName = BoltsSwift;
+			productReference = 1579A0986D70C32D7BED1A855C31EF4B /* Bolts-Swift */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 52DF97CCE0610BEB2295E6F8D33C1F36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA1CEDB360B77644C934EAD86B37FCB5 /* Bolts-Swift */,
+				9506C7FCDAE6E6967A99655F452EEE93 /* iOSDFULibrary */,
+				3E8BB3BAFA6478784A9A7DD76C8A1F3C /* MetaWear */,
+				B3EDE354D5584C9856EFF26CD6C6DEAE /* Pods-fall-app */,
+				2019A3E3844591F019A985A35E5C2D39 /* Polyline */,
+				6510766A9670BFA3B251E2A62446FC5D /* SkeletonUI */,
+				AA15C8469D67684160CC2A7098EB841C /* ZIPFoundation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08C0122CB902699C913C4F3D15EF1A67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D121C128E5D93984A39A5CAA490FB9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35EB662202AB1D43CA302A8DB359B849 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A719F7AA99C290E0862BC65E63E79C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ECF7162D6F9A0751DCCCBF7854C481F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		545DC4155E194C80A079A665F76CD471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		612B15719FAB643F8DA31EE53689AB47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08EBD21C498941D7C99629AB90C76356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3BA9E179623554301EF85F9E4EC264 /* ButtonlessDFU.swift in Sources */,
+				1B8DA733D65F50CEA9405FF5261C8E3A /* crc32.swift in Sources */,
+				1F1FDF2CBFD334611E03EFCEF886E10F /* Data.swift in Sources */,
+				0E57D4E7FB49DF4D1F08AE32AE017B11 /* DFUCharacteristic.swift in Sources */,
+				931D7452403742E2B7286D44195602AC /* DFUController.swift in Sources */,
+				94C3A573FC8D853355CA109B5989DADB /* DFUControlPoint.swift in Sources */,
+				5F7F4A7CA246FFFFE5065801CE39461B /* DFUExecutor.swift in Sources */,
+				4695EAA9D237448FE1430D39BECFE002 /* DFUFirmware.swift in Sources */,
+				9553D9C11E3D55F7190984C59046CC9F /* DFUPacket.swift in Sources */,
+				4F99A698327E5FC65ECAB30EF883F24F /* DFUPeripheral.swift in Sources */,
+				306DAFC420013D741040B78DB8783CD1 /* DFUPeripheralDelegate.swift in Sources */,
+				FD17FD583FE3DB3DF81E9A73DA2A3C3A /* DFUPeripheralSelector.swift in Sources */,
+				347BF2EAB7E170671252B7989FB22527 /* DFUPeripheralSelectorDelegate.swift in Sources */,
+				EE649C997CCB4005297D7195AF2D7B0F /* DFUService.swift in Sources */,
+				4604B5F9550A6DC309CBFF7C1D7510A6 /* DFUServiceController.swift in Sources */,
+				E753A492EBC2112183A8FD84663EE4D6 /* DFUServiceDelegate.swift in Sources */,
+				1B97F78001634192635AA2E98CF5001F /* DFUServiceInitiator.swift in Sources */,
+				F3937A0DBE7E97DED7149B9E0DFCAE4C /* DFUServiceSelector.swift in Sources */,
+				ECEDB4B733F67599FE8F9C7C11DCB03A /* DFUStarterPeripheral.swift in Sources */,
+				E5F68337FC5D1B94646D35F7D5E29712 /* DFUStream.swift in Sources */,
+				98B89ACD3F78CE3E1F5087AFDC422195 /* DFUStreamBin.swift in Sources */,
+				361ABED4D79AC05DB151608BD1169B80 /* DFUStreamHex.swift in Sources */,
+				8B3498D5054ABD52450EF56CBBE3C592 /* DFUStreamZip.swift in Sources */,
+				70B996FB21F7713AD4B9E91BA82FA064 /* DFUUuidHelper.swift in Sources */,
+				8CE63A3FBE80DE9E7A2238758EA729E6 /* DFUVersion.swift in Sources */,
+				358E35C002A2BAEA731E5435B84545CD /* Double.swift in Sources */,
+				AB196DB9F729BF37AC41DAF9C841E89D /* IntelHex2BinConverter.swift in Sources */,
+				01F38E13204CA8DB98454C4EBB3B5B01 /* iOSDFULibrary-dummy.m in Sources */,
+				972A229F053C58550EF5D22D03E5670A /* LegacyDFUExecutor.swift in Sources */,
+				5B4989B8FF9931B8850E2AC7D5E60248 /* LegacyDFUPeripheral.swift in Sources */,
+				B1F629FFB4D6B58AD6E04795A20F7E93 /* LegacyDFUPeripheralDelegate.swift in Sources */,
+				270C5E6F2D4DEFD5D92A5977B81255D2 /* LegacyDFUService.swift in Sources */,
+				16BC48D9BEE834C6AC74C40508C39C65 /* LegacyDFUServiceInitiator.swift in Sources */,
+				C0A2FDB91B0EE453A93A77F26052F878 /* LoggerDelegate.swift in Sources */,
+				E8A0028C8305882E88E9422B27F795B3 /* LoggerHelper.swift in Sources */,
+				79CFDE0C41042BB0DA3FCBAED097D20F /* Manifest.swift in Sources */,
+				AD1607DC1954AF94202D4F77BFF8E24F /* ManifestFirmwareInfo.swift in Sources */,
+				1A49EB6326C29B55F302788836CAA2F9 /* SecureDFUControlPoint.swift in Sources */,
+				16D0513ABFF62E11FB06CF2B33DCCEEF /* SecureDFUExecutor.swift in Sources */,
+				A5669AFD566D3CBEC6BBC1B0C6A9D4AE /* SecureDFUPacket.swift in Sources */,
+				561D8805EADB7A5C6F50DDF7DF8BA0BD /* SecureDFUPeripheral.swift in Sources */,
+				E3DAAE18F7E4716534A1EA33C399CC02 /* SecureDFUPeripheralDelegate.swift in Sources */,
+				669BE2513C71661255079C4C414F8AEA /* SecureDFUService.swift in Sources */,
+				839472C33D1D24F8F27F78B0A795CFDB /* SecureDFUServiceInitiator.swift in Sources */,
+				EF7C077FFB519B2EC8770D07A2448EDA /* SoftdeviceBootloaderInfo.swift in Sources */,
+				E499D30FA0FA28F0BB88408141C9D208 /* ZipArchive.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E5174D8ABD0F86071CCA0A8D8389465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23AB401EA2DC9BAA435B033E704A9406 /* Bolts-Swift-dummy.m in Sources */,
+				95E46181D8FC4AC4C20F177220805D59 /* Errors.swift in Sources */,
+				5CC566CCC0055546155D57902D10B574 /* Executor.swift in Sources */,
+				7AEF07B308BAC5CF75B0DBCC591DDAAE /* Task.swift in Sources */,
+				57E4358DF5A349E14418DDAD0619B3E9 /* Task+ContinueWith.swift in Sources */,
+				1344095A86FEF755B39DE3700F727A5F /* Task+Delay.swift in Sources */,
+				A9ECF13DC52C6742BFFCA3112B62B975 /* Task+WhenAll.swift in Sources */,
+				408E6D25175C92C8DF19EC2AD52B0473 /* Task+WhenAny.swift in Sources */,
+				636B54447CEE73B5F2CC4B0472D35CA4 /* TaskCompletionSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EADE4397B057F312519993D0A053C44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA62D39C6905EEC9691E68F58622D0F /* CoreLocation.swift in Sources */,
+				DD5119FA17A9BD373BBE338EEF720B3F /* Polyline.swift in Sources */,
+				DF87975C01C3B2BE9745A5B243171798 /* Polyline-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		817B7F0EA63969E16721C26747266390 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5576F80555081B14C9ECDE9076689EA7 /* accelerometer.cpp in Sources */,
+				772B205376BA5F0AFDB72260205826B1 /* accelerometer_bosch.cpp in Sources */,
+				33D60778E8FD0BA9BBB59FE7B6E21F66 /* accelerometer_mma8452q.cpp in Sources */,
+				3F2AE47CD32CAD0D695E0A76789967E2 /* ambientlight_ltr329.cpp in Sources */,
+				85741B86D64B846AC48421ACE070E9F5 /* anonymous_datasignal.cpp in Sources */,
+				56ECAA66D29A867A3ECB696FBB8F735F /* async_creator.cpp in Sources */,
+				3C5E5A999DD51EC83325F8B86C596E95 /* barometer_bosch.cpp in Sources */,
+				4CC05DD8CA00C93A2E2FF7F412A6BD5E /* Bridging.swift in Sources */,
+				B5B7C6F2730CF7A3CAAB9EE151EEB71B /* cbindings.swift in Sources */,
+				6B508429FA47FD4932557072D5DBC5E7 /* CBUUID.swift in Sources */,
+				118716A7821B1BB688C6B17B15139BD6 /* colordetector_tcs34725.cpp in Sources */,
+				20E985187871E06612E009526BEBF3B7 /* conductance.cpp in Sources */,
+				E293363F367EB3C3A51958EA1B61A946 /* datainterpreter.cpp in Sources */,
+				06DA6DA689A9E6F5896BBD5819A9B41B /* dataprocessor.cpp in Sources */,
+				602DEC7B5BE7B5C870E9BDCAFDE491D0 /* dataprocessor_config.cpp in Sources */,
+				E74199AF8D47A9F53A9513D8C28EB540 /* datasignal.cpp in Sources */,
+				A9833E20E32F1DD0BE48FDB9D4A9B6C1 /* debug.cpp in Sources */,
+				73BEDF926392DEDA657700E69E359666 /* DeviceInformation.swift in Sources */,
+				F8929C64105A3A813E83D48A46E34416 /* dfu_operations.cpp in Sources */,
+				1B7C0E9286F1C72FBFA233031735CD6B /* dfu_operations_details.cpp in Sources */,
+				E7588C8D5646547656733E7AA6C0E25D /* dfu_utility.cpp in Sources */,
+				69AF9262191391F83485D4F5EC975AC8 /* event.cpp in Sources */,
+				4E10AE1045C22A20A3D4FE6E9104671F /* file_operations.cpp in Sources */,
+				A784D75B40E4254F0727C3476008CB63 /* FirmwareBuild.swift in Sources */,
+				5B842133FAACB2C3C89D5B1532F39CF3 /* FirmwareServer.swift in Sources */,
+				01AC1DF46BE04B12D47D8E832CBC4572 /* gpio.cpp in Sources */,
+				C4BAFF2CDF46D640521B2BB8A8BD401E /* gyro_bosch.cpp in Sources */,
+				A558C7A5C02A4E520E198B4C3BD5A863 /* haptic.cpp in Sources */,
+				611D63CC6F55C49ADC1EC551422B754C /* humidity_bme280.cpp in Sources */,
+				13F5C35C2995E6C4423B2A202EEB2094 /* ibeacon.cpp in Sources */,
+				EB71F0EC219BC484233B6F74E3D17FE1 /* led.cpp in Sources */,
+				9065C22B3B2A449521617805DB66430D /* LogDelegate.swift in Sources */,
+				548B004B13F6E97BCD34505AB5A61C96 /* logging.cpp in Sources */,
+				C8BCB8CBB8FB14E398A72FD68C34D964 /* macro.cpp in Sources */,
+				DBBF3E5BE646898F4BCD523BA1E2E7F9 /* magnetometer_bmm150.cpp in Sources */,
+				21DE684A16E107C6F6FF922972F83D72 /* MblMwDataSignal+Async.swift in Sources */,
+				BE6C87072F4F495D8CB5A9A64284A9C7 /* MblMwEvent+Async.swift in Sources */,
+				05E151BDF23034306AD62CDB618884DE /* MblMwGattChar.swift in Sources */,
+				9E8FB17A9E078384CA3A82D3B36BA5DC /* memory.cpp in Sources */,
+				36C96FB5F07E2BB6D53014B7D3A99E78 /* MetaWear.swift in Sources */,
+				29EBA937ADCE2F2EFF0FA4A169DC46E8 /* MetaWear+Async.swift in Sources */,
+				23FAC916C3BF47D2C5BF2EFF57FDC995 /* MetaWear+Firmware.swift in Sources */,
+				A1E164FC83F288CEE2CC3C3984C3E67C /* MetaWear+LED.swift in Sources */,
+				A32EF247094CCE11F4796FFFDF02A2B8 /* MetaWear-dummy.m in Sources */,
+				A16B160F2AC967782BD8EA367D129388 /* metawearboard.cpp in Sources */,
+				19B5AEDC415D02C2EAB1A0BDEEA02E21 /* MetaWearData.swift in Sources */,
+				F73D5877C4A4DEA16C183A6E96214730 /* MetaWearScanner.swift in Sources */,
+				D330D53A824CC77465035466324606BB /* miniz.cpp in Sources */,
+				CAED286E6028E560F51AA7952520F632 /* moduleinfo.cpp in Sources */,
+				BBE9E6E52108516E4C287AAEE9160000 /* multichanneltemperature.cpp in Sources */,
+				31811066EA196461890A53437550C3A8 /* neopixel.cpp in Sources */,
+				3CEF74179367A557DF93D49C800F4211 /* proximity_tsl2671.cpp in Sources */,
+				B9E4BE438F0711515CDD75023252CCA9 /* responseheader.cpp in Sources */,
+				F125E09B88FD3B834260D0134D421D73 /* ScannerModel.swift in Sources */,
+				75D529FAEE1CA09D4F5EED925FB6B710 /* sensor_fusion.cpp in Sources */,
+				A0D1AC1791702A0EE1ECB7A4F6E4D9BC /* serialpassthrough.cpp in Sources */,
+				5CE56EB33B4821C61533B7A341311B5C /* settings.cpp in Sources */,
+				51256E2E038BAE58B8087F9684963798 /* String+VersionCompare.swift in Sources */,
+				141A36556DDAEBBF1284F2DA5E7D6D0B /* switch.cpp in Sources */,
+				95312866C51E4AC726AC3A2A46E846FC /* task.cpp in Sources */,
+				4F80BDBB116B3632EF90276BDBE9102E /* threadpool.cpp in Sources */,
+				CD0B46BEA91C690037352E4624D5D443 /* timer.cpp in Sources */,
+				F131B6EFDBE7BAB6D3EE98FABEAD1B91 /* utils.cpp in Sources */,
+				7ECEB7E7E2FFB9C19A464096AC2E2C2E /* version.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CC19A72A3EF846C98D6EC75D1EB38C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CF41FBD1B962DBCF26852E0A7566D25 /* AngleInteractor.swift in Sources */,
+				87E45E8305B9DF8416C47FDC0035D185 /* AnglePresenter.swift in Sources */,
+				EE3B934CF57C7A7E1D1380CB1E05601C /* AnimationInteractor.swift in Sources */,
+				0E4D184F9186474984169CABA102CA85 /* AppearanceInteractor.swift in Sources */,
+				7B6069F55296658063E89F9EDA9DC9F3 /* AppearancePresenter.swift in Sources */,
+				297799A88DD470CF3386066ABE6C7A79 /* ClosedRange+Normalize.swift in Sources */,
+				0DD8DAB345AA005B1B84F8B084933451 /* Image+OptionalType.swift in Sources */,
+				431BE7D31B69799F9788122F064DE6C2 /* ModifiedContent+SkeletonModifier.swift in Sources */,
+				F514839587190D6A2980DCF3D8909AF0 /* MultilineInteractor.swift in Sources */,
+				D450CAEAF9955973AA6C3E7B183989FD /* MultilinePresenter.swift in Sources */,
+				1C217186F59DFC015FF38E278D3EA519 /* OpacityInteractor.swift in Sources */,
+				4F7DB0A7CC312904DECB2383F8E06FF9 /* OpacityPresenter.swift in Sources */,
+				92C5D1D7100E77D4F01CC57169FAB84A /* Optional+OptionalType.swift in Sources */,
+				3705CB6E74DA0C5750DE938A99EE2745 /* OptionalType.swift in Sources */,
+				056339316698F14F06DAD7B783437FB2 /* PositionInteractor.swift in Sources */,
+				9097C3D44250862BE97C7ED70D867DE9 /* PositionPresenter.swift in Sources */,
+				E327FF2A0C754CF517F5604330776AFB /* RadiusInteractor.swift in Sources */,
+				EEA3E02044300ED77057B9DD43B9BB63 /* RadiusPresenter.swift in Sources */,
+				6E09B2E8C3C32CC8FE0992B4113E754E /* SecureField+OptionalType.swift in Sources */,
+				825341B3298E1C1DC5226A62BB794422 /* ShapeInteractor.swift in Sources */,
+				9710678AAC14A670DFB1AFF54D9D0BB3 /* ShapePresenter.swift in Sources */,
+				0564A0C19C24FCD4D734F50FC537EEA2 /* SkeletonForEach.swift in Sources */,
+				41562287569812BB4156B79AED0075B3 /* SkeletonInteractor.swift in Sources */,
+				A506B533D69B1C29A3CE76F9F237F7A6 /* SkeletonList.swift in Sources */,
+				34A8AAA048EF5D740486A95236E7F153 /* SkeletonModifier.swift in Sources */,
+				00847773951C4686AC374189E5CEA20B /* SkeletonPresenter.swift in Sources */,
+				D24DDE5BE69A64E0D38FC758165F2CB6 /* SkeletonShape.swift in Sources */,
+				B7320AE35D8BE078FFACD4AC1DB1F63B /* SkeletonUI-dummy.m in Sources */,
+				62130EF7924003137B6BB2F49D562CEC /* SkeletonView.swift in Sources */,
+				B16759EC5A2AD3D41BEA5F384DFB479A /* Text+OptionalType.swift in Sources */,
+				BCDD9676434590B72CB33D69A8EAC71D /* TextField+OptionalType.swift in Sources */,
+				9908D2DDA2DA69130099CF82A5497E4A /* Toggle+OptionalType.swift in Sources */,
+				38D0BF61D3F630E0A21EF3BC43796425 /* UnitPoint+Angle.swift in Sources */,
+				58C8690DB3251BF7C7C0B7DEAB78A4EB /* View+SkeletonModifier.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AABABE0EEAA34BA667CE2DDA7FEE3FCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A82126B34718E79848DD93F1D39EC4 /* Pods-fall-app-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFF190937BDE0DF781D01B52DF6646E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95CA32FA4CF793A4ACE6D5E2A8D72C11 /* Archive.swift in Sources */,
+				D2AC66C0E3DE2F1779D452646D6757AA /* Archive+MemoryFile.swift in Sources */,
+				2ABE35CE5634A9D8D5A2F3ED69274FBF /* Archive+Reading.swift in Sources */,
+				5E96E963655862485AFC504145A31983 /* Archive+Writing.swift in Sources */,
+				AD9B77A674504F50780131A1D14907E1 /* Data+Compression.swift in Sources */,
+				D92718A4763DA551FF5CA8BB0134CFD9 /* Data+Serialization.swift in Sources */,
+				F6CE64B209132E166997CAE78230D487 /* Entry.swift in Sources */,
+				59D79A1D5F4FD80A9D5A97220E9A02B7 /* FileManager+ZIP.swift in Sources */,
+				5E98CA3D028C1823D0B3C1D11E0BA096 /* ZIPFoundation-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16934F2028752971332B7A53D54157A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZIPFoundation;
+			target = AA15C8469D67684160CC2A7098EB841C /* ZIPFoundation */;
+			targetProxy = 1AD5BD6C37989C05775B29A1EA18E8DD /* PBXContainerItemProxy */;
+		};
+		1E495D524618FE88C280CB085F185B2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Bolts-Swift";
+			target = BA1CEDB360B77644C934EAD86B37FCB5 /* Bolts-Swift */;
+			targetProxy = D5790CF839A92D4D1CC73497DB4C9BB3 /* PBXContainerItemProxy */;
+		};
+		4EE5A21B6256C1ECB1C7FECD501317A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MetaWear;
+			target = 3E8BB3BAFA6478784A9A7DD76C8A1F3C /* MetaWear */;
+			targetProxy = ECB6931FE71AC918E305922FC3C3BA77 /* PBXContainerItemProxy */;
+		};
+		58EAE15286F0E4F433DEE95EA4F0F58C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SkeletonUI;
+			target = 6510766A9670BFA3B251E2A62446FC5D /* SkeletonUI */;
+			targetProxy = E4026453D35C0B9A2B971A12198BE2EA /* PBXContainerItemProxy */;
+		};
+		689AF8C173B06FFB04C72A3C2EFE0FA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iOSDFULibrary;
+			target = 9506C7FCDAE6E6967A99655F452EEE93 /* iOSDFULibrary */;
+			targetProxy = EF9FFE5844CD94578045517E3AC3C971 /* PBXContainerItemProxy */;
+		};
+		6E6B22BDE9510E0B5FDF9A646B71627C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Bolts-Swift";
+			target = BA1CEDB360B77644C934EAD86B37FCB5 /* Bolts-Swift */;
+			targetProxy = 95478D18DA14091208B23139F5729868 /* PBXContainerItemProxy */;
+		};
+		7E36B417C2347D3C2D7C4E67FCE2BBF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZIPFoundation;
+			target = AA15C8469D67684160CC2A7098EB841C /* ZIPFoundation */;
+			targetProxy = D74F3CD73F583F3A2D7334CE236EA4BD /* PBXContainerItemProxy */;
+		};
+		9B481851A28F640D8AB6B3A7285FF64D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Polyline;
+			target = 2019A3E3844591F019A985A35E5C2D39 /* Polyline */;
+			targetProxy = AEBADAAE217ABED4CD325A153A59AE50 /* PBXContainerItemProxy */;
+		};
+		A7BA4BA398074DDA886C898354892C4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iOSDFULibrary;
+			target = 9506C7FCDAE6E6967A99655F452EEE93 /* iOSDFULibrary */;
+			targetProxy = 88B37E0C19DFB49B6AE2588D82BD27C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09D2C591ABE62071689031028781BFA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 793993227B3B9304D59906E464A24C78 /* Pods-fall-app.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-fall-app/Pods-fall-app-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-fall-app/Pods-fall-app.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1C9C9D80BB0EC43B872190695811108F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D952A011DA1541AF5286E17462E8FF20 /* ZIPFoundation.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZIPFoundation/ZIPFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZIPFoundation/ZIPFoundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZIPFoundation/ZIPFoundation.modulemap";
+				PRODUCT_MODULE_NAME = ZIPFoundation;
+				PRODUCT_NAME = ZIPFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1D75F9E621AFFFD3E6A545700BAE8FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01ACD817495FA337BD16F246446DF246 /* MetaWear.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MetaWear/MetaWear-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MetaWear/MetaWear-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MetaWear/MetaWear.modulemap";
+				PRODUCT_MODULE_NAME = MetaWear;
+				PRODUCT_NAME = MetaWear;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		223D7187818B65186C256528391D1661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE2CE9D0BD784C1971257A12FA3E59E4 /* Bolts-Swift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Bolts-Swift/Bolts-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Bolts-Swift/Bolts-Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Bolts-Swift/Bolts-Swift.modulemap";
+				PRODUCT_MODULE_NAME = BoltsSwift;
+				PRODUCT_NAME = BoltsSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2ADE69A37C29696E05B0C64B942A159C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DF05E43BB6C2B8C1663E21C4EF69375 /* SkeletonUI.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SkeletonUI/SkeletonUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkeletonUI/SkeletonUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SkeletonUI/SkeletonUI.modulemap";
+				PRODUCT_MODULE_NAME = SkeletonUI;
+				PRODUCT_NAME = SkeletonUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4559B4BC8158154B8CD702EABD36F309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E23BD69434AC8BAAB586A5F50A52D9DC /* SkeletonUI.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SkeletonUI/SkeletonUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkeletonUI/SkeletonUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SkeletonUI/SkeletonUI.modulemap";
+				PRODUCT_MODULE_NAME = SkeletonUI;
+				PRODUCT_NAME = SkeletonUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		47E6B181D2A64DEC0BDD21428D7E6601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B15EDB763217079E241863761C771F5 /* Polyline.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Polyline/Polyline-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Polyline/Polyline-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Polyline/Polyline.modulemap";
+				PRODUCT_MODULE_NAME = Polyline;
+				PRODUCT_NAME = Polyline;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		64455918BC9796136170F61D991DB1B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEC5428C83868CB37EF1792A019B9AF7 /* MetaWear.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MetaWear/MetaWear-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MetaWear/MetaWear-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MetaWear/MetaWear.modulemap";
+				PRODUCT_MODULE_NAME = MetaWear;
+				PRODUCT_NAME = MetaWear;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6DC126EE49BC0BD002DA05E10065B3C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DBE812C1176C78F4A72C794384E7615 /* Bolts-Swift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Bolts-Swift/Bolts-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Bolts-Swift/Bolts-Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Bolts-Swift/Bolts-Swift.modulemap";
+				PRODUCT_MODULE_NAME = BoltsSwift;
+				PRODUCT_NAME = BoltsSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731B38B7C661BC7890A70C4E203462AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 308C9EA754DBA0034722F37A2F5EBD22 /* ZIPFoundation.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZIPFoundation/ZIPFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZIPFoundation/ZIPFoundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZIPFoundation/ZIPFoundation.modulemap";
+				PRODUCT_MODULE_NAME = ZIPFoundation;
+				PRODUCT_NAME = ZIPFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EB87B00C57207C58064B233CC46DDB39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32B9F6A5AB447095918B4A7BC93E2242 /* Polyline.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Polyline/Polyline-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Polyline/Polyline-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Polyline/Polyline.modulemap";
+				PRODUCT_MODULE_NAME = Polyline;
+				PRODUCT_NAME = Polyline;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED6ED3110E11297967605556BE945C3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E74D83B726D5E44BF74D9B6EE13C3E7 /* iOSDFULibrary.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iOSDFULibrary/iOSDFULibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOSDFULibrary/iOSDFULibrary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/iOSDFULibrary/iOSDFULibrary.modulemap";
+				PRODUCT_MODULE_NAME = iOSDFULibrary;
+				PRODUCT_NAME = iOSDFULibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.6;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F10EF5A962F8577235690C6BCCCBE6E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C2270F7B6F123CF605A56BAC6B57F47 /* iOSDFULibrary.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iOSDFULibrary/iOSDFULibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOSDFULibrary/iOSDFULibrary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/iOSDFULibrary/iOSDFULibrary.modulemap";
+				PRODUCT_MODULE_NAME = iOSDFULibrary;
+				PRODUCT_NAME = iOSDFULibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.6;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F54ED7220A45B6C96FC0C3CD2CA62F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52F5869A78AFEA7FBB6521E3A45403EA /* Pods-fall-app.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-fall-app/Pods-fall-app-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-fall-app/Pods-fall-app.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2006E63B28497F9806064DDF9A20852D /* Build configuration list for PBXNativeTarget "iOSDFULibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10EF5A962F8577235690C6BCCCBE6E5 /* Debug */,
+				ED6ED3110E11297967605556BE945C3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C4DED0B5CC7551BF7CEF30FB8761127 /* Build configuration list for PBXNativeTarget "SkeletonUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4559B4BC8158154B8CD702EABD36F309 /* Debug */,
+				2ADE69A37C29696E05B0C64B942A159C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		699D4E48D0D78B6493007DA514EE0F1F /* Build configuration list for PBXNativeTarget "ZIPFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C9C9D80BB0EC43B872190695811108F /* Debug */,
+				731B38B7C661BC7890A70C4E203462AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		945DB584B50BDEB5F2E05F8418B63352 /* Build configuration list for PBXNativeTarget "MetaWear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64455918BC9796136170F61D991DB1B4 /* Debug */,
+				1D75F9E621AFFFD3E6A545700BAE8FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3EB5B13A4E6B973791B3A6F51F17ED1 /* Build configuration list for PBXNativeTarget "Pods-fall-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09D2C591ABE62071689031028781BFA6 /* Debug */,
+				F54ED7220A45B6C96FC0C3CD2CA62F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE43317891337A885DC38725DE42D0F0 /* Build configuration list for PBXNativeTarget "Polyline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB87B00C57207C58064B233CC46DDB39 /* Debug */,
+				47E6B181D2A64DEC0BDD21428D7E6601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C48222D97D3730ADFA867FB3A54056D0 /* Build configuration list for PBXNativeTarget "Bolts-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				223D7187818B65186C256528391D1661 /* Debug */,
+				6DC126EE49BC0BD002DA05E10065B3C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

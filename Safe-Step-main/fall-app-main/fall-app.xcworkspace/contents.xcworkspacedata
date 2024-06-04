@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:gpxgenerator_path.gpx">
+   </FileRef>
+   <FileRef
+      location = "group:fells_loop.gpx">
+   </FileRef>
+   <FileRef
+      location = "group:fall-app.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
